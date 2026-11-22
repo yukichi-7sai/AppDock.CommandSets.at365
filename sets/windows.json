@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "id": "windows",
+  "title": "Windows標準キー",
+  "description": "Windows標準のキー操作です。利用できる操作はWindowsのバージョン・機器・設定・インストール済みアプリに従います。",
+  "defaults": {
+    "when": {
+      "scope": "global",
+      "appletIds": []
+    }
+  },
+  "commands": [
+    {
+      "id": "start-menu",
+      "title": "スタートメニューを開く／閉じる",
+      "keys": "Win",
+      "description": "送信キー: Win。Windowsのスタートメニューを表示・非表示にします。",
+      "category": "Windows"
+    },
+    {
+      "id": "quick-settings",
+      "title": "クイック設定を開く",
+      "keys": "Win+A",
+      "description": "送信キー: Win+A。Wi-Fi・音量などのクイック設定を開きます。表示内容はWindowsのバージョンによって異なります。",
+      "category": "Windows"
+    },
+    {
+      "id": "windows-tip",
+      "title": "表示中のWindowsのヒントに移動する",
+      "keys": "Win+Shift+A",
+      "description": "送信キー: Win+Shift+A。Windowsのヒントが表示されているときに、そのヒントへフォーカスを移します。表示されていなければ何も起きません。",
+      "category": "Windows"
+    },
+    {
+      "id": "hdr-toggle",
+      "title": "HDRをオン／オフにする",
+      "keys": "Win+Alt+B",
+      "description": "送信キー: Win+Alt+B。HDR対応のディスプレイと利用環境が必要です。現在のHDR設定を切り替えます。",
+      "category": "Windows"
+    },
+    {
+      "id": "copilot",
+      "title": "CopilotまたはWindows検索を開く",
+      "keys": "Win+C",
+      "description": "送信キー: Win+C。Copilotの導入状況とWindowsの設定に従って動作します。Copilotが利用できない場合はWindows検索を開閉します。",
+      "category": "Windows"
+    },
+    {
+      "id": "date-time",
+      "title": "日付と時刻を表示／非表示にする",
+      "keys": "Win+Alt+D",
+      "description": "送信キー: Win+Alt+D。デスクトップの日付と時刻の表示を切り替えます。",
+      "category": "Windows"
+    },
+    {
+      "id": "snap-bottom",
+      "title": "ウィンドウを画面の下半分に配置する",
+      "keys": "Win+Alt+Down",
+      "description": "送信キー: Win+Alt+Down。最前面のウィンドウを下半分にスナップします。対応するWindowsとウィンドウで利用できます。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "voice-typing-focus",
+      "title": "音声入力のキーボードに移動する",
+      "keys": "Win+Alt+H",
+      "description": "送信キー: Win+Alt+H。音声入力が開いているときに、キーボードへフォーカスを移します。",
+      "category": "Windows"
+    },
+    {
+      "id": "microphone-mute",
+      "title": "マイクをミュート／解除する",
+      "keys": "Win+Alt+K",
+      "description": "送信キー: Win+Alt+K。この操作に対応する通話アプリなどで、マイクのミュート状態を切り替えます。",
+      "category": "Windows"
+    },
+    {
+      "id": "snap-top",
+      "title": "ウィンドウを画面の上半分に配置する",
+      "keys": "Win+Alt+Up",
+      "description": "送信キー: Win+Alt+Up。最前面のウィンドウを上半分にスナップします。対応するWindowsとウィンドウで利用できます。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "color-filters",
+      "title": "カラーフィルターをオン／オフにする",
+      "keys": "Win+Ctrl+C",
+      "description": "送信キー: Win+Ctrl+C。Windowsの設定でカラーフィルターのショートカットが有効な場合に、フィルターを切り替えます。",
+      "category": "Windows"
+    },
+    {
+      "id": "narrator",
+      "title": "ナレーターを起動／終了する",
+      "keys": "Win+Ctrl+Enter",
+      "description": "送信キー: Win+Ctrl+Enter。Windowsの画面読み上げを切り替えます。ナレーターのショートカットが無効な場合は動作しません。",
+      "category": "Windows"
+    },
+    {
+      "id": "find-computers",
+      "title": "ネットワーク上のデバイスを検索する",
+      "keys": "Win+Ctrl+F",
+      "description": "送信キー: Win+Ctrl+F。ネットワーク上のデバイスを探すWindowsの画面を呼び出します。ネットワーク構成によって利用できない場合があります。",
+      "category": "Windows"
+    },
+    {
+      "id": "quick-assist",
+      "title": "クイックアシストを開く",
+      "keys": "Win+Ctrl+Q",
+      "description": "送信キー: Win+Ctrl+Q。クイックアシストが必要です。支援用の画面を開きます。画面を開くだけで他の人との接続は始まりません。",
+      "category": "Windows"
+    },
+    {
+      "id": "previous-input",
+      "title": "直前に使っていた入力方式に戻す",
+      "keys": "Win+Ctrl+Space",
+      "description": "送信キー: Win+Ctrl+Space。以前に選択していた入力オプションへ切り替えます。複数の入力方式がある場合に利用できます。",
+      "category": "Windows"
+    },
+    {
+      "id": "sound-output",
+      "title": "サウンド出力の設定を開く",
+      "keys": "Win+Ctrl+V",
+      "description": "送信キー: Win+Ctrl+V。対応するWindowsで、出力デバイスや音量ミキサーなどのクイック設定を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "show-desktop",
+      "title": "デスクトップを表示／元に戻す",
+      "keys": "Win+D",
+      "description": "送信キー: Win+D。ウィンドウを隠してデスクトップを表示します。もう一度実行すると元の表示に戻します。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "snap-down",
+      "title": "ウィンドウを縮小／最小化する",
+      "keys": "Win+Down",
+      "description": "送信キー: Win+Down。最前面のウィンドウの現在の状態に応じて、最大化を解除するか最小化します。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "explorer",
+      "title": "エクスプローラーを開く",
+      "keys": "Win+E",
+      "description": "送信キー: Win+E。Windowsのエクスプローラーを開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "magnifier-close",
+      "title": "拡大鏡を終了する",
+      "keys": "Win+Escape",
+      "description": "送信キー: Win+Escape。Windowsの拡大鏡が起動している場合に終了します。",
+      "category": "Windows"
+    },
+    {
+      "id": "feedback-hub",
+      "title": "フィードバックHubを開く",
+      "keys": "Win+F",
+      "description": "送信キー: Win+F。フィードバックHubが必要です。Windowsへの意見や問題を送るための画面を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "ime-reconvert",
+      "title": "IMEで文字を再変換する",
+      "keys": "Win+Slash",
+      "description": "送信キー: Win+Slash。入力中のアプリでIMEの再変換を呼び出します。対応するIMEと変換対象の文字が必要です。",
+      "category": "Windows"
+    },
+    {
+      "id": "game-bar",
+      "title": "Game Barを開く",
+      "keys": "Win+G",
+      "description": "送信キー: Win+G。Game Barがインストールされ、有効になっている場合に開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "voice-typing",
+      "title": "音声入力を開く",
+      "keys": "Win+H",
+      "description": "送信キー: Win+H。Windowsの音声入力を開きます。文字を入力できる場所と、音声入力に対応する環境が必要です。",
+      "category": "Windows"
+    },
+    {
+      "id": "minimize-others",
+      "title": "他のウィンドウを最小化／元に戻す",
+      "keys": "Win+Home",
+      "description": "送信キー: Win+Home。最前面のウィンドウを残して他のウィンドウを最小化します。もう一度実行すると戻します。",
+      "category": "Windows"
+    },
+    {
+      "id": "settings",
+      "title": "Windowsの設定を開く",
+      "keys": "Win+I",
+      "description": "送信キー: Win+I。Windowsの設定アプリを開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "recall",
+      "title": "Recallを開く",
+      "keys": "Win+J",
+      "description": "送信キー: Win+J。Recallの最小システム要件を満たし、機能が利用可能なPCで動作します。",
+      "category": "Windows"
+    },
+    {
+      "id": "cast",
+      "title": "ワイヤレスディスプレイへの接続を開く",
+      "keys": "Win+K",
+      "description": "送信キー: Win+K。Windowsのキャスト画面を開きます。実際の接続には対応するPCとディスプレイが必要です。",
+      "category": "Windows"
+    },
+    {
+      "id": "snap-left",
+      "title": "ウィンドウを画面の左側に配置する",
+      "keys": "Win+Left",
+      "description": "送信キー: Win+Left。最前面のウィンドウをWindowsのスナップ機能で左側に配置します。既存の「左へ移動」とは異なる操作です。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "minimize-all",
+      "title": "すべてのウィンドウを最小化する",
+      "keys": "Win+M",
+      "description": "送信キー: Win+M。デスクトップ上のウィンドウをまとめて最小化します。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "magnifier-out",
+      "title": "拡大鏡の倍率を下げる",
+      "keys": "Win+Minus",
+      "description": "送信キー: Win+Minus。Windowsの拡大鏡を使用中に表示倍率を下げます。",
+      "category": "Windows"
+    },
+    {
+      "id": "notification-center",
+      "title": "Windowsの通知と予定表を開く",
+      "keys": "Win+N",
+      "description": "送信キー: Win+N。対応するWindowsで、通知センターと予定表を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "orientation-lock",
+      "title": "画面の自動回転をロック／解除する",
+      "keys": "Win+O",
+      "description": "送信キー: Win+O。画面の自動回転に対応する端末で、向きのロックを切り替えます。",
+      "category": "Windows"
+    },
+    {
+      "id": "project",
+      "title": "ディスプレイの表示モードを選ぶ",
+      "keys": "Win+P",
+      "description": "送信キー: Win+P。複製・拡張などを選ぶWindowsの投影メニューを開きます。メニューを開くだけでは表示モードを変更しません。",
+      "category": "Windows"
+    },
+    {
+      "id": "system-about",
+      "title": "Windowsのバージョン情報を開く",
+      "keys": "Win+Pause",
+      "description": "送信キー: Win+Pause。Windowsの設定にあるシステムのバージョン情報を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "emoji-period",
+      "title": "絵文字パネルを開く（Win＋ピリオド）",
+      "keys": "Win+Period",
+      "description": "送信キー: Win+Period。絵文字などを選ぶWindowsの入力パネルを開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "emoji-semicolon",
+      "title": "絵文字パネルを開く（Win＋セミコロン）",
+      "keys": "Win+Semicolon",
+      "description": "送信キー: Win+Semicolon。絵文字などを選ぶWindowsの入力パネルを開きます。記号のキー位置は送信先のキーボード配列に従います。",
+      "category": "Windows"
+    },
+    {
+      "id": "magnifier-in",
+      "title": "拡大鏡を起動／倍率を上げる",
+      "keys": "Win+Plus",
+      "description": "送信キー: Win+Plus。Windowsの拡大鏡を開き、表示倍率を上げます。",
+      "category": "Windows"
+    },
+    {
+      "id": "screenshot-file",
+      "title": "画面全体のスクリーンショットを保存する",
+      "keys": "Win+PrintScreen",
+      "description": "送信キー: Win+PrintScreen。画面全体を撮影し、Windowsのピクチャ内のスクリーンショット保存先へ画像を保存します。",
+      "category": "Windows"
+    },
+    {
+      "id": "search-q",
+      "title": "Windows検索を開く（Win＋Q）",
+      "keys": "Win+Q",
+      "description": "送信キー: Win+Q。Windowsの検索画面を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "run",
+      "title": "ファイル名を指定して実行を開く",
+      "keys": "Win+R",
+      "description": "送信キー: Win+R。実行するファイル名やコマンドを入力するWindowsのダイアログを開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "snap-right",
+      "title": "ウィンドウを画面の右側に配置する",
+      "keys": "Win+Right",
+      "description": "送信キー: Win+Right。最前面のウィンドウをWindowsのスナップ機能で右側に配置します。既存の「右へ移動」とは異なる操作です。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "search-s",
+      "title": "Windows検索を開く（Win＋S）",
+      "keys": "Win+S",
+      "description": "送信キー: Win+S。Windowsの検索画面を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "restore-height",
+      "title": "ウィンドウのスナップ／最大化を解除する",
+      "keys": "Win+Shift+Down",
+      "description": "送信キー: Win+Shift+Down。最前面のウィンドウがスナップ・最大化されている場合に、通常の表示へ戻します。",
+      "category": "Windows"
+    },
+    {
+      "id": "uwp-fullscreen",
+      "title": "UWPアプリを全画面表示にする",
+      "keys": "Win+Shift+Enter",
+      "description": "送信キー: Win+Shift+Enter。最前面がこの操作に対応するUWPアプリの場合に、全画面表示を切り替えます。",
+      "category": "Windows"
+    },
+    {
+      "id": "monitor-left",
+      "title": "ウィンドウを左のモニターへ移す",
+      "keys": "Win+Shift+Left",
+      "description": "送信キー: Win+Shift+Left。複数のモニターを接続している場合に、最前面のウィンドウを左側のモニターへ移します。",
+      "category": "Windows"
+    },
+    {
+      "id": "restore-all",
+      "title": "最小化したウィンドウを元に戻す",
+      "keys": "Win+Shift+M",
+      "description": "送信キー: Win+Shift+M。Windowsでまとめて最小化したウィンドウを復元します。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "screen-record",
+      "title": "画面の範囲を選んで録画する",
+      "keys": "Win+Shift+R",
+      "description": "送信キー: Win+Shift+R。対応するSnipping Toolで録画範囲の選択を開始します。録画はWindows側の設定により動画フォルダーへ保存されます。",
+      "category": "Windows"
+    },
+    {
+      "id": "monitor-right",
+      "title": "ウィンドウを右のモニターへ移す",
+      "keys": "Win+Shift+Right",
+      "description": "送信キー: Win+Shift+Right。複数のモニターを接続している場合に、最前面のウィンドウを右側のモニターへ移します。",
+      "category": "Windows"
+    },
+    {
+      "id": "screen-snip",
+      "title": "画面の範囲を選んで撮影する",
+      "keys": "Win+Shift+S",
+      "description": "送信キー: Win+Shift+S。Snipping Toolで撮影する範囲を選び、スクリーンショットを取得します。",
+      "category": "Windows"
+    },
+    {
+      "id": "input-previous",
+      "title": "前の入力言語／キーボード配列に切り替える",
+      "keys": "Win+Shift+Space",
+      "description": "送信キー: Win+Shift+Space。登録済みの入力言語やキーボード配列を逆順に切り替えます。複数の入力方式がある場合に利用できます。",
+      "category": "Windows"
+    },
+    {
+      "id": "stretch-height",
+      "title": "ウィンドウを画面の上下いっぱいに広げる",
+      "keys": "Win+Shift+Up",
+      "description": "送信キー: Win+Shift+Up。Windowsの機能で、最前面のデスクトップウィンドウを縦方向に広げます。対応するウィンドウで利用できます。",
+      "category": "Windows"
+    },
+    {
+      "id": "cycle-notifications",
+      "title": "通知を順番に切り替える",
+      "keys": "Win+Shift+V",
+      "description": "送信キー: Win+Shift+V。Windowsの通知へ順番にフォーカスを移します。対象になる通知が必要です。",
+      "category": "Windows"
+    },
+    {
+      "id": "input-next",
+      "title": "次の入力言語／キーボード配列に切り替える",
+      "keys": "Win+Space",
+      "description": "送信キー: Win+Space。登録済みの入力言語やキーボード配列を順方向に切り替えます。複数の入力方式がある場合に利用できます。",
+      "category": "Windows"
+    },
+    {
+      "id": "task-view",
+      "title": "ウィンドウと仮想デスクトップの一覧を開く",
+      "keys": "Win+Tab",
+      "description": "送信キー: Win+Tab。Windowsのタスクビューを開きます。2つの対象一覧にある同じキー操作を1コマンドにまとめています。",
+      "category": "Windows"
+    },
+    {
+      "id": "accessibility",
+      "title": "Windowsのアクセシビリティ設定を開く",
+      "keys": "Win+U",
+      "description": "送信キー: Win+U。見やすさ・操作のしやすさを調整するWindowsの設定を開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "maximize",
+      "title": "ウィンドウを最大化する（Windows標準）",
+      "keys": "Win+Up",
+      "description": "送信キー: Win+Up。Windowsのキー操作で、最前面のウィンドウを最大化します。",
+      "category": "Windows"
+    },
+    {
+      "id": "clipboard",
+      "title": "クリップボードの履歴を開く",
+      "keys": "Win+V",
+      "description": "送信キー: Win+V。Windowsのクリップボード履歴を開きます。履歴が無効な場合はWindowsの案内が表示され、必要なら利用者が有効にできます。",
+      "category": "Windows"
+    },
+    {
+      "id": "widgets",
+      "title": "ウィジェットを開く",
+      "keys": "Win+W",
+      "description": "送信キー: Win+W。Windowsのウィジェットが利用可能な環境で開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "quick-link",
+      "title": "スタートのクイックリンクメニューを開く",
+      "keys": "Win+X",
+      "description": "送信キー: Win+X。スタートボタンを右クリックしたときと同じWindowsのメニューを開きます。",
+      "category": "Windows"
+    },
+    {
+      "id": "mixed-reality-input",
+      "title": "Mixed Realityとデスクトップの入力を切り替える",
+      "keys": "Win+Y",
+      "description": "送信キー: Win+Y。Windows Mixed Realityを利用できる旧環境向けです。Windows 11 24H2以降ではMixed Realityが削除されています。",
+      "category": "Windows"
+    },
+    {
+      "id": "snap-layouts",
+      "title": "ウィンドウの配置レイアウトを選ぶ",
+      "keys": "Win+Z",
+      "description": "送信キー: Win+Z。対応するWindowsとウィンドウで、スナップレイアウトの候補を開きます。",
+      "category": "ウィンドウ"
+    },
+    {
+      "id": "desktop-add",
+      "title": "仮想デスクトップを追加する",
+      "keys": "Win+Ctrl+D",
+      "description": "送信キー: Win+Ctrl+D。新しい仮想デスクトップを作成して切り替えます。",
+      "category": "仮想デスクトップ"
+    },
+    {
+      "id": "desktop-right",
+      "title": "右の仮想デスクトップに切り替える",
+      "keys": "Win+Ctrl+Right",
+      "description": "送信キー: Win+Ctrl+Right。右隣の仮想デスクトップへ移ります。切り替え先がなければ何も起きません。",
+      "category": "仮想デスクトップ"
+    },
+    {
+      "id": "desktop-left",
+      "title": "左の仮想デスクトップに切り替える",
+      "keys": "Win+Ctrl+Left",
+      "description": "送信キー: Win+Ctrl+Left。左隣の仮想デスクトップへ移ります。切り替え先がなければ何も起きません。",
+      "category": "仮想デスクトップ"
+    },
+    {
+      "id": "desktop-close",
+      "title": "現在の仮想デスクトップを閉じる",
+      "keys": "Win+Ctrl+F4",
+      "description": "送信キー: Win+Ctrl+F4。現在の仮想デスクトップを閉じます。開いているアプリは終了せず、別の仮想デスクトップへ移ります。",
+      "category": "仮想デスクトップ"
+    },
+    {
+      "id": "media-play-pause",
+      "title": "メディアの再生／一時停止",
+      "keys": "MediaPlayPause",
+      "description": "送信キー: MediaPlayPause。メディアキーに対応するアプリへ再生／一時停止を送ります。操作対象はWindowsと各アプリの処理に従い、特定のアプリは選択しません。",
+      "category": "メディア"
+    },
+    {
+      "id": "media-stop",
+      "title": "メディアの停止",
+      "keys": "MediaStop",
+      "description": "送信キー: MediaStop。メディアキーに対応するアプリへ停止を送ります。停止に対応しないアプリでは動作しません。特定のアプリは選択しません。",
+      "category": "メディア"
+    },
+    {
+      "id": "media-next-track",
+      "title": "メディアの次のトラック",
+      "keys": "MediaNextTrack",
+      "description": "送信キー: MediaNextTrack。メディアキーに対応するアプリへ次のトラックへの移動を送ります。特定のアプリは選択しません。",
+      "category": "メディア"
+    },
+    {
+      "id": "media-prev-track",
+      "title": "メディアの前のトラック",
+      "keys": "MediaPrevTrack",
+      "description": "送信キー: MediaPrevTrack。メディアキーに対応するアプリへ前のトラックへの移動を送ります。曲の先頭へ戻るか前の曲へ移るかは対象アプリに従います。",
+      "category": "メディア"
+    },
+    {
+      "id": "volume-mute",
+      "title": "音量のミュート／解除を切り替える",
+      "keys": "VolumeMute",
+      "description": "送信キー: VolumeMute。Windowsの音声出力のミュート状態を切り替えます。マイクのミュートやAppDockだけの音声設定は変更しません。",
+      "category": "音量"
+    },
+    {
+      "id": "volume-up",
+      "title": "音量を上げる",
+      "keys": "VolumeUp",
+      "description": "送信キー: VolumeUp。Windowsの音声出力の音量を1回分上げます。変更幅やミュート中の動作はWindowsの処理に従います。",
+      "category": "音量"
+    },
+    {
+      "id": "volume-down",
+      "title": "音量を下げる",
+      "keys": "VolumeDown",
+      "description": "送信キー: VolumeDown。Windowsの音声出力の音量を1回分下げます。変更幅やミュート中の動作はWindowsの処理に従います。",
+      "category": "音量"
+    }
+  ]
+}

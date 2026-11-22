@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "editing",
+  "title": "テキスト編集",
+  "description": "一般的な編集キーのサンプルです。対象アプリに合わせて変更できます。",
+  "defaults": { "when": { "scope": "global", "appletIds": [] } },
+  "commands": [
+    {
+      "id": "copy",
+      "title": "コピー",
+      "description": "Ctrl+Cを送信します。",
+      "category": "クリップボード",
+      "keys": "Ctrl+C"
+    },
+    { "id": "cut", "title": "切り取り", "category": "クリップボード", "keys": "Ctrl+X" },
+    { "id": "paste", "title": "貼り付け", "category": "クリップボード", "keys": "Ctrl+V" },
+    { "id": "select-all", "title": "すべて選択", "category": "編集", "keys": "Ctrl+A" },
+    { "id": "undo", "title": "元に戻す", "category": "編集", "keys": "Ctrl+Z" }
+  ]
+}

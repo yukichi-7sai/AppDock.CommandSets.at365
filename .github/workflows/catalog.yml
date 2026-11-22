@@ -1,0 +1,50 @@
+name: Command set catalog
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - run: node .github/scripts/catalog.mjs
+
+  publish:
+    needs: validate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: publish-command-set-catalog
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Publish the index for the validated source revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$(git ls-remote origin refs/heads/main | cut -f1)" != "$GITHUB_SHA" ]]; then exit 0; fi
+          node .github/scripts/catalog.mjs "$RUNNER_TEMP/catalog.json"
+          blob=$(git hash-object -w "$RUNNER_TEMP/catalog.json")
+          tree=$(printf '100644 blob %s\tcatalog.json\n' "$blob" | git mktree)
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          parents=()
+          if git show-ref --verify --quiet refs/remotes/origin/catalog; then
+            parents=(-p refs/remotes/origin/catalog)
+          fi
+          commit=$(git commit-tree "$tree" "${parents[@]}" -m "Catalog for $GITHUB_SHA")
+          git push origin "$commit:refs/heads/catalog"

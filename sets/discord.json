@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "discord",
+  "title": "Discord",
+  "description": "Windowsデスクトップ版Discordの標準ショートカットです。公式ガイド: https://support.discord.com/hc/en-us/articles/31232432266647-Discord-Commands-Shortcuts-and-Navigation-Guide",
+  "defaults": {
+    "when": {
+      "scope": "exe",
+      "appletIds": [],
+      "processes": [
+        "discord"
+      ]
+    }
+  },
+  "commands": [
+    {
+      "id": "quick-switcher",
+      "title": "チャンネルやDMを探す",
+      "description": "送信キー: Ctrl+K。クイックスイッチャーを開き、チャンネルやDMを検索します。",
+      "category": "移動",
+      "keys": "Ctrl+K"
+    },
+    {
+      "id": "previous-channel",
+      "title": "前のチャンネルへ移動",
+      "description": "送信キー: Alt+Up。チャンネル一覧で上のチャンネルに移動します。",
+      "category": "移動",
+      "keys": "Alt+Up"
+    },
+    {
+      "id": "next-channel",
+      "title": "次のチャンネルへ移動",
+      "description": "送信キー: Alt+Down。チャンネル一覧で下のチャンネルに移動します。",
+      "category": "移動",
+      "keys": "Alt+Down"
+    },
+    {
+      "id": "previous-unread-channel",
+      "title": "前の未読チャンネルへ移動",
+      "description": "送信キー: Alt+Shift+Up。チャンネル一覧を上にたどり、未読のチャンネルに移動します。",
+      "category": "移動",
+      "keys": "Alt+Shift+Up"
+    },
+    {
+      "id": "next-unread-channel",
+      "title": "次の未読チャンネルへ移動",
+      "description": "送信キー: Alt+Shift+Down。チャンネル一覧を下にたどり、未読のチャンネルに移動します。",
+      "category": "移動",
+      "keys": "Alt+Shift+Down"
+    },
+    {
+      "id": "previous-unread-mention-channel",
+      "title": "メンションのある前の未読チャンネルへ移動",
+      "description": "送信キー: Ctrl+Alt+Shift+Up。上方向にある、メンションを含む未読チャンネルに移動します。",
+      "category": "移動",
+      "keys": "Ctrl+Alt+Shift+Up"
+    },
+    {
+      "id": "next-unread-mention-channel",
+      "title": "メンションのある次の未読チャンネルへ移動",
+      "description": "送信キー: Ctrl+Alt+Shift+Down。下方向にある、メンションを含む未読チャンネルに移動します。",
+      "category": "移動",
+      "keys": "Ctrl+Alt+Shift+Down"
+    },
+    {
+      "id": "next-section",
+      "title": "次のセクションへ移動",
+      "description": "送信キー: F6。キーボードモードでチャンネル一覧やメッセージ欄など、次のセクションにフォーカスを移します。",
+      "category": "移動",
+      "keys": "F6"
+    },
+    {
+      "id": "previous-section",
+      "title": "前のセクションへ移動",
+      "description": "送信キー: Shift+F6。キーボードモードで前のセクションにフォーカスを移します。",
+      "category": "移動",
+      "keys": "Shift+F6"
+    },
+    {
+      "id": "search-channel",
+      "title": "現在のチャンネルを検索",
+      "description": "送信キー: Ctrl+F。現在のチャンネル内のメッセージを検索します。",
+      "category": "検索",
+      "keys": "Ctrl+F"
+    },
+    {
+      "id": "search-all-channels",
+      "title": "チャンネルを横断して検索",
+      "description": "送信キー: Ctrl+Shift+F。複数のチャンネルを対象にメッセージを検索します。",
+      "category": "検索",
+      "keys": "Ctrl+Shift+F"
+    },
+    {
+      "id": "scroll-chat-up",
+      "title": "チャットを上へスクロール",
+      "description": "送信キー: PageUp。チャットの表示を上へスクロールします。",
+      "category": "チャット",
+      "keys": "PageUp"
+    },
+    {
+      "id": "scroll-chat-down",
+      "title": "チャットを下へスクロール",
+      "description": "送信キー: PageDown。チャットの表示を下へスクロールします。",
+      "category": "チャット",
+      "keys": "PageDown"
+    },
+    {
+      "id": "jump-to-oldest-unread",
+      "title": "最も古い未読メッセージへ移動",
+      "description": "送信キー: Shift+PageUp。現在のチャンネルで最初の未読メッセージに移動します。",
+      "category": "チャット",
+      "keys": "Shift+PageUp"
+    },
+    {
+      "id": "mark-channel-read",
+      "title": "チャンネルを既読にする",
+      "description": "送信キー: Escape。通常のチャット表示でチャンネルを既読にします。画面の状態に応じて、編集中の操作のキャンセルや着信の拒否にも使われるキーです。",
+      "category": "チャット",
+      "keys": "Escape"
+    },
+    {
+      "id": "mark-server-read",
+      "title": "サーバーを既読にする",
+      "description": "送信キー: Shift+Escape。現在のサーバーを既読にします。",
+      "category": "チャット",
+      "keys": "Shift+Escape"
+    },
+    {
+      "id": "edit-last-message",
+      "title": "自分の直前のメッセージを編集",
+      "description": "送信キー: Shift+Up。チャットで自分が最後に送ったメッセージを編集します。",
+      "category": "チャット",
+      "keys": "Shift+Up"
+    },
+    {
+      "id": "toggle-pins",
+      "title": "ピン留め一覧を切り替え",
+      "description": "送信キー: Ctrl+P。現在のチャンネルのピン留めメッセージ一覧を開閉します。",
+      "category": "チャット",
+      "keys": "Ctrl+P"
+    },
+    {
+      "id": "toggle-member-list",
+      "title": "メンバー一覧を切り替え",
+      "description": "送信キー: Ctrl+U。チャンネルのメンバー一覧を表示または非表示にします。入力欄の状態によっては文字の下線に使われます。",
+      "category": "チャット",
+      "keys": "Ctrl+U"
+    },
+    {
+      "id": "open-emoji-picker",
+      "title": "絵文字一覧を開く",
+      "description": "送信キー: Ctrl+E。メッセージに挿入する絵文字を選ぶ一覧を開きます。",
+      "category": "チャット",
+      "keys": "Ctrl+E"
+    },
+    {
+      "id": "open-gif-picker",
+      "title": "GIF一覧を開く",
+      "description": "送信キー: Ctrl+G。メッセージに添えるGIFを選ぶ一覧を開きます。",
+      "category": "チャット",
+      "keys": "Ctrl+G"
+    },
+    {
+      "id": "upload-file",
+      "title": "添付ファイルを選ぶ",
+      "description": "送信キー: Ctrl+Shift+U。アップロードするファイルを選ぶダイアログを開きます。",
+      "category": "チャット",
+      "keys": "Ctrl+Shift+U"
+    },
+    {
+      "id": "reply-to-focused-message",
+      "title": "フォーカス中のメッセージに返信",
+      "description": "送信キー: R。キーボードモードでフォーカスしているメッセージへの返信を作成します。",
+      "category": "メッセージ",
+      "keys": "R"
+    },
+    {
+      "id": "quote-focused-message",
+      "title": "フォーカス中のメッセージを引用",
+      "description": "送信キー: Q。キーボードモードでフォーカスしているメッセージを引用します。",
+      "category": "メッセージ",
+      "keys": "Q"
+    },
+    {
+      "id": "react-to-focused-message",
+      "title": "フォーカス中のメッセージにリアクション",
+      "description": "送信キー: +。キーボードモードでフォーカスしているメッセージに付けるリアクションを選びます。",
+      "category": "メッセージ",
+      "keys": "Plus"
+    },
+    {
+      "id": "edit-focused-message",
+      "title": "フォーカス中のメッセージを編集",
+      "description": "送信キー: E。キーボードモードでフォーカスしている自分のメッセージを編集します。",
+      "category": "メッセージ",
+      "keys": "E"
+    },
+    {
+      "id": "pin-focused-message",
+      "title": "フォーカス中のメッセージをピン留め",
+      "description": "送信キー: P。キーボードモードでフォーカスしているメッセージをピン留めします。ピン留めできる権限が必要です。",
+      "category": "メッセージ",
+      "keys": "P"
+    },
+    {
+      "id": "copy-focused-message",
+      "title": "フォーカス中のメッセージをコピー",
+      "description": "送信キー: Ctrl+C。キーボードモードでフォーカスしているメッセージの内容をコピーします。",
+      "category": "メッセージ",
+      "keys": "Ctrl+C"
+    },
+    {
+      "id": "mark-focused-message-unread",
+      "title": "フォーカス中のメッセージを未読にする",
+      "description": "送信キー: Alt+Enter。キーボードモードでフォーカスしているメッセージを未読にします。",
+      "category": "メッセージ",
+      "keys": "Alt+Enter"
+    },
+    {
+      "id": "toggle-mute",
+      "title": "マイクのミュートを切り替え",
+      "description": "送信キー: Ctrl+Shift+M。自分のマイクをミュートまたはミュート解除します。",
+      "category": "通話",
+      "keys": "Ctrl+Shift+M"
+    },
+    {
+      "id": "toggle-deafen",
+      "title": "スピーカーミュートを切り替え",
+      "description": "送信キー: Ctrl+Shift+D。通話音声を聞く状態と、自分のマイクと通話音声の両方をミュートする状態を切り替えます。",
+      "category": "通話",
+      "keys": "Ctrl+Shift+D"
+    },
+    {
+      "id": "answer-incoming-call",
+      "title": "着信に応答",
+      "description": "送信キー: Ctrl+Enter。Discordの着信が表示されているときに応答します。",
+      "category": "通話",
+      "keys": "Ctrl+Enter"
+    },
+    {
+      "id": "open-active-voice-channel",
+      "title": "接続中の音声チャンネルを表示",
+      "description": "送信キー: Ctrl+Alt+A。接続中の音声チャンネルに表示を切り替えます。",
+      "category": "通話",
+      "keys": "Ctrl+Alt+A"
+    },
+    {
+      "id": "create-or-join-server",
+      "title": "サーバーを作成または参加",
+      "description": "送信キー: Ctrl+Shift+N。サーバーを作成するか、招待を使って参加する画面を開きます。",
+      "category": "その他",
+      "keys": "Ctrl+Shift+N"
+    },
+    {
+      "id": "create-group-dm",
+      "title": "グループDMを作成",
+      "description": "送信キー: Ctrl+Shift+T。グループDMに追加するメンバーを選ぶ画面を開きます。",
+      "category": "その他",
+      "keys": "Ctrl+Shift+T"
+    },
+    {
+      "id": "toggle-keyboard-shortcuts",
+      "title": "ショートカット一覧を切り替え",
+      "description": "送信キー: Ctrl+/。Discordのキーボードショートカット一覧を開閉します。",
+      "category": "その他",
+      "keys": "Ctrl+/"
+    },
+    {
+      "id": "open-help",
+      "title": "ヘルプを開く",
+      "description": "送信キー: Ctrl+Shift+H。Discordのヘルプを開きます。",
+      "category": "その他",
+      "keys": "Ctrl+Shift+H"
+    }
+  ]
+}

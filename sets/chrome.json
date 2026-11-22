@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "id": "chrome",
+  "title": "Google Chrome",
+  "description": "Windows版Google Chromeの公式ヘルプを基にしたキー操作です。フォーカスが必要な操作は各コマンドの説明を確認してください。公式ヘルプ: https://support.google.com/chrome/answer/157179?hl=ja",
+  "defaults": {
+    "when": {
+      "scope": "exe",
+      "appletIds": [],
+      "processes": [
+        "chrome"
+      ]
+    }
+  },
+  "commands": [
+    {
+      "id": "new-tab",
+      "title": "タブを開く",
+      "description": "送信キー: Ctrl+T。新しいタブを作り、そのタブへ切り替えます。",
+      "category": "タブ",
+      "keys": "Ctrl+T"
+    },
+    {
+      "id": "close-tab",
+      "title": "タブを閉じる",
+      "description": "送信キー: Ctrl+F4。選択中のタブを閉じます。別キー: Ctrl+W。",
+      "category": "タブ",
+      "keys": "Ctrl+F4"
+    },
+    {
+      "id": "reopen-tab",
+      "title": "閉じたタブを開き直す",
+      "description": "送信キー: Ctrl+Shift+T。直前に閉じたタブを復元します。繰り返すと閉じた順に戻れます。",
+      "category": "タブ",
+      "keys": "Ctrl+Shift+T"
+    },
+    {
+      "id": "next-tab",
+      "title": "次のタブへ移動",
+      "description": "送信キー: Ctrl+Tab。次のタブを選びます。別キー: Ctrl+PageDown。",
+      "category": "タブ",
+      "keys": "Ctrl+Tab"
+    },
+    {
+      "id": "previous-tab",
+      "title": "前のタブへ移動",
+      "description": "送信キー: Ctrl+Shift+Tab。前のタブを選びます。別キー: Ctrl+PageUp。",
+      "category": "タブ",
+      "keys": "Ctrl+Shift+Tab"
+    },
+    {
+      "id": "tab-1",
+      "title": "1番目のタブへ移動",
+      "description": "送信キー: Ctrl+1。左から1番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+1"
+    },
+    {
+      "id": "tab-2",
+      "title": "2番目のタブへ移動",
+      "description": "送信キー: Ctrl+2。左から2番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+2"
+    },
+    {
+      "id": "tab-3",
+      "title": "3番目のタブへ移動",
+      "description": "送信キー: Ctrl+3。左から3番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+3"
+    },
+    {
+      "id": "tab-4",
+      "title": "4番目のタブへ移動",
+      "description": "送信キー: Ctrl+4。左から4番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+4"
+    },
+    {
+      "id": "tab-5",
+      "title": "5番目のタブへ移動",
+      "description": "送信キー: Ctrl+5。左から5番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+5"
+    },
+    {
+      "id": "tab-6",
+      "title": "6番目のタブへ移動",
+      "description": "送信キー: Ctrl+6。左から6番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+6"
+    },
+    {
+      "id": "tab-7",
+      "title": "7番目のタブへ移動",
+      "description": "送信キー: Ctrl+7。左から7番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+7"
+    },
+    {
+      "id": "tab-8",
+      "title": "8番目のタブへ移動",
+      "description": "送信キー: Ctrl+8。左から8番目のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+8"
+    },
+    {
+      "id": "last-tab",
+      "title": "最後のタブへ移動",
+      "description": "送信キー: Ctrl+9。右端のタブを選びます。",
+      "category": "タブ",
+      "keys": "Ctrl+9"
+    },
+    {
+      "id": "move-tab-left",
+      "title": "タブを左へ移動",
+      "description": "送信キー: Ctrl+Shift+PageUp。選択中のタブの並び位置を左へ動かします。",
+      "category": "タブ",
+      "keys": "Ctrl+Shift+PageUp"
+    },
+    {
+      "id": "move-tab-right",
+      "title": "タブを右へ移動",
+      "description": "送信キー: Ctrl+Shift+PageDown。選択中のタブの並び位置を右へ動かします。",
+      "category": "タブ",
+      "keys": "Ctrl+Shift+PageDown"
+    },
+    {
+      "id": "move-tab-group-left",
+      "title": "タブ・グループを左へ移動",
+      "description": "送信キー: Ctrl+Left。タブやグループにフォーカスがある状態で使います。その項目を左へ動かします。",
+      "category": "タブグループ",
+      "keys": "Ctrl+Left"
+    },
+    {
+      "id": "move-tab-group-right",
+      "title": "タブ・グループを右へ移動",
+      "description": "送信キー: Ctrl+Right。タブやグループにフォーカスがある状態で使います。その項目を右へ動かします。",
+      "category": "タブグループ",
+      "keys": "Ctrl+Right"
+    },
+    {
+      "id": "toggle-tab-group",
+      "title": "タブグループを展開・折りたたみ",
+      "description": "送信キー: Space。グループ見出しにフォーカスがある状態で使います。グループ内のタブの表示を切り替えます。別キー: Enter。",
+      "category": "タブグループ",
+      "keys": "Space"
+    },
+    {
+      "id": "new-window",
+      "title": "ウィンドウを開く",
+      "description": "送信キー: Ctrl+N。新しいブラウザーウィンドウを作ります。",
+      "category": "ウィンドウ",
+      "keys": "Ctrl+N"
+    },
+    {
+      "id": "new-private-window",
+      "title": "シークレットウィンドウを開く",
+      "description": "送信キー: Ctrl+Shift+N。新しいシークレットウィンドウを作ります。",
+      "category": "ウィンドウ",
+      "keys": "Ctrl+Shift+N"
+    },
+    {
+      "id": "close-window",
+      "title": "ウィンドウを閉じる",
+      "description": "送信キー: Ctrl+Shift+W。操作中のウィンドウを閉じます。別キー: Alt+F4。",
+      "category": "ウィンドウ",
+      "keys": "Ctrl+Shift+W"
+    },
+    {
+      "id": "toggle-fullscreen",
+      "title": "全画面表示を切り替え",
+      "description": "送信キー: F11。全画面表示の開始と解除を切り替えます。",
+      "category": "ウィンドウ",
+      "keys": "F11"
+    },
+    {
+      "id": "back",
+      "title": "前のページへ戻る",
+      "description": "送信キー: Alt+Left。タブの閲覧履歴をひとつ戻ります。",
+      "category": "ページ移動",
+      "keys": "Alt+Left"
+    },
+    {
+      "id": "forward",
+      "title": "次のページへ進む",
+      "description": "送信キー: Alt+Right。戻る前に開いていた次のページへ進みます。",
+      "category": "ページ移動",
+      "keys": "Alt+Right"
+    },
+    {
+      "id": "home",
+      "title": "ホームページを開く",
+      "description": "送信キー: Alt+Home。設定したホームページを今のタブで開きます。",
+      "category": "ページ移動",
+      "keys": "Alt+Home"
+    },
+    {
+      "id": "reload",
+      "title": "ページを再読み込み",
+      "description": "送信キー: F5。表示中のページを読み直します。別キー: Ctrl+R。",
+      "category": "ページ移動",
+      "keys": "F5"
+    },
+    {
+      "id": "reload-without-cache",
+      "title": "キャッシュを使わず再読み込み",
+      "description": "送信キー: Shift+F5。キャッシュを無視してページを読み直します。別キー: Ctrl+Shift+R。 Ctrl+F5も同じ再読み込みです。",
+      "category": "ページ移動",
+      "keys": "Shift+F5"
+    },
+    {
+      "id": "stop-loading",
+      "title": "読み込みを停止",
+      "description": "送信キー: Escape。ページの読み込みを中止します。",
+      "category": "ページ移動",
+      "keys": "Escape"
+    },
+    {
+      "id": "zoom-in",
+      "title": "ページを拡大",
+      "description": "送信キー: Ctrl+Plus。ページの表示倍率を上げます。",
+      "category": "ページ表示",
+      "keys": "Ctrl+Plus"
+    },
+    {
+      "id": "zoom-out",
+      "title": "ページを縮小",
+      "description": "送信キー: Ctrl+Minus。ページの表示倍率を下げます。",
+      "category": "ページ表示",
+      "keys": "Ctrl+Minus"
+    },
+    {
+      "id": "reset-zoom",
+      "title": "ページの倍率を戻す",
+      "description": "送信キー: Ctrl+0。ページの表示倍率を標準に戻します。",
+      "category": "ページ表示",
+      "keys": "Ctrl+0"
+    },
+    {
+      "id": "scroll-page-down",
+      "title": "1画面分下へ移動",
+      "description": "送信キー: PageDown。ページを1画面分下へ送ります。別キー: Space。入力欄などにフォーカスがあると動作が変わります。",
+      "category": "ページ表示",
+      "keys": "PageDown"
+    },
+    {
+      "id": "scroll-page-up",
+      "title": "1画面分上へ移動",
+      "description": "送信キー: PageUp。ページを1画面分上へ戻します。別キー: Shift+Space。入力欄などにフォーカスがあると動作が変わります。",
+      "category": "ページ表示",
+      "keys": "PageUp"
+    },
+    {
+      "id": "page-top",
+      "title": "ページの先頭へ移動",
+      "description": "送信キー: Home。ページの先頭へ移動します。入力欄や別のペインにフォーカスがあると、その場所での移動になります。",
+      "category": "ページ表示",
+      "keys": "Home"
+    },
+    {
+      "id": "page-bottom",
+      "title": "ページの末尾へ移動",
+      "description": "送信キー: End。ページの末尾へ移動します。入力欄や別のペインにフォーカスがあると、その場所での移動になります。",
+      "category": "ページ表示",
+      "keys": "End"
+    },
+    {
+      "id": "find",
+      "title": "ページ内を検索",
+      "description": "送信キー: Ctrl+F。表示中のページを検索する欄を開きます。別キー: F3。",
+      "category": "ページ内検索",
+      "keys": "Ctrl+F"
+    },
+    {
+      "id": "find-next",
+      "title": "次の検索結果へ移動",
+      "description": "送信キー: Ctrl+G。ページ内検索で次の一致箇所へ進みます。",
+      "category": "ページ内検索",
+      "keys": "Ctrl+G"
+    },
+    {
+      "id": "find-previous",
+      "title": "前の検索結果へ移動",
+      "description": "送信キー: Ctrl+Shift+G。ページ内検索で前の一致箇所へ戻ります。",
+      "category": "ページ内検索",
+      "keys": "Ctrl+Shift+G"
+    },
+    {
+      "id": "focus-address-bar",
+      "title": "アドレスバーを選択",
+      "description": "送信キー: Ctrl+L。アドレスバーへフォーカスを移し、URLを選択します。別キー: Alt+D。",
+      "category": "アドレスバー・検索",
+      "keys": "Ctrl+L"
+    },
+    {
+      "id": "search-address-bar",
+      "title": "アドレスバーで検索",
+      "description": "送信キー: Ctrl+E。アドレスバーに検索キーワードを入力できる状態にします。別キー: Ctrl+K。",
+      "category": "アドレスバー・検索",
+      "keys": "Ctrl+E"
+    },
+    {
+      "id": "complete-site-address",
+      "title": "サイト名を補って開く",
+      "description": "送信キー: Ctrl+Enter。アドレスバーにサイト名を入力した状態で使います。www.と.comを補って開きます。",
+      "category": "アドレスバー・検索",
+      "keys": "Ctrl+Enter"
+    },
+    {
+      "id": "complete-site-new-window",
+      "title": "サイト名を補って別ウィンドウで開く",
+      "description": "送信キー: Ctrl+Shift+Enter。アドレスバーにサイト名を入力した状態で使います。www.と.comを補い、新しいウィンドウで開きます。",
+      "category": "アドレスバー・検索",
+      "keys": "Ctrl+Shift+Enter"
+    },
+    {
+      "id": "search-in-new-tab",
+      "title": "入力した語句を新しいタブで検索",
+      "description": "送信キー: Alt+Enter。アドレスバーに検索語句を入力した状態で使います。新しいタブで検索します。",
+      "category": "アドレスバー・検索",
+      "keys": "Alt+Enter"
+    },
+    {
+      "id": "submit-search",
+      "title": "入力した検索を確定",
+      "description": "送信キー: Enter。アドレスバーに検索語句を入力した状態で使います。既定の検索エンジンへ送ります。",
+      "category": "アドレスバー・検索",
+      "keys": "Enter"
+    },
+    {
+      "id": "select-search-engine",
+      "title": "入力した検索エンジンを選択",
+      "description": "送信キー: Tab。アドレスバーに検索エンジン名を入力した状態で使います。そのエンジンで検索する入力へ切り替えます。",
+      "category": "アドレスバー・検索",
+      "keys": "Tab"
+    },
+    {
+      "id": "remove-address-prediction",
+      "title": "選んだ予測候補を削除",
+      "description": "送信キー: Shift+Delete。アドレスバーの予測候補を選択した状態で使います。その候補を削除します。",
+      "category": "アドレスバー・検索",
+      "keys": "Shift+Delete"
+    },
+    {
+      "id": "bookmark-page",
+      "title": "ページをブックマークに登録",
+      "description": "送信キー: Ctrl+D。表示中のページをブックマークに追加します。",
+      "category": "ブックマーク・お気に入り",
+      "keys": "Ctrl+D"
+    },
+    {
+      "id": "bookmark-all-tabs",
+      "title": "すべてのタブをブックマークに登録",
+      "description": "送信キー: Ctrl+Shift+D。開いているタブをまとめてブックマークの新しいフォルダーへ登録する画面を開きます。",
+      "category": "ブックマーク・お気に入り",
+      "keys": "Ctrl+Shift+D"
+    },
+    {
+      "id": "toggle-bookmarks-bar",
+      "title": "ブックマークバーを切り替え",
+      "description": "送信キー: Ctrl+Shift+B。ブックマークバーの表示と非表示を切り替えます。",
+      "category": "ブックマーク・お気に入り",
+      "keys": "Ctrl+Shift+B"
+    },
+    {
+      "id": "open-bookmarks",
+      "title": "ブックマークマネージャーを開く",
+      "description": "送信キー: Ctrl+Shift+O。ブックマークを管理する画面を表示します。",
+      "category": "ブックマーク・お気に入り",
+      "keys": "Ctrl+Shift+O"
+    },
+    {
+      "id": "open-history",
+      "title": "閲覧履歴を開く",
+      "description": "送信キー: Ctrl+H。これまでに開いたページの履歴を表示します。",
+      "category": "履歴・ダウンロード",
+      "keys": "Ctrl+H"
+    },
+    {
+      "id": "open-downloads",
+      "title": "ダウンロードを開く",
+      "description": "送信キー: Ctrl+J。ダウンロードしたファイルの一覧を表示します。",
+      "category": "履歴・ダウンロード",
+      "keys": "Ctrl+J"
+    },
+    {
+      "id": "open-file",
+      "title": "ファイルを開く",
+      "description": "送信キー: Ctrl+O。パソコン内のファイルを選んで開くダイアログを表示します。ファイルの選択は別途行います。",
+      "category": "ファイル・印刷",
+      "keys": "Ctrl+O"
+    },
+    {
+      "id": "save-page",
+      "title": "ページを保存",
+      "description": "送信キー: Ctrl+S。表示中のページを保存するダイアログを開きます。",
+      "category": "ファイル・印刷",
+      "keys": "Ctrl+S"
+    },
+    {
+      "id": "print-page",
+      "title": "ページを印刷",
+      "description": "送信キー: Ctrl+P。ページの印刷画面を表示します。",
+      "category": "ファイル・印刷",
+      "keys": "Ctrl+P"
+    },
+    {
+      "id": "view-source",
+      "title": "ページのソースを表示",
+      "description": "送信キー: Ctrl+U。表示中のページのHTMLソースを開きます。",
+      "category": "開発ツール",
+      "keys": "Ctrl+U"
+    },
+    {
+      "id": "open-developer-tools",
+      "title": "開発者ツールを開く",
+      "description": "送信キー: F12。開発者ツールを開きます。別キー: Ctrl+Shift+I。",
+      "category": "開発ツール",
+      "keys": "F12"
+    },
+    {
+      "id": "open-javascript-console",
+      "title": "JavaScriptコンソールを開く",
+      "description": "送信キー: Ctrl+Shift+J。開発者ツールのConsoleパネルを直接開きます。",
+      "category": "開発ツール",
+      "keys": "Ctrl+Shift+J"
+    },
+    {
+      "id": "open-menu",
+      "title": "ブラウザーのメニューを開く",
+      "description": "送信キー: Alt+F。ブラウザーのメニューを表示します。別キー: Alt+E。",
+      "category": "ブラウザー機能",
+      "keys": "Alt+F"
+    },
+    {
+      "id": "clear-browsing-data",
+      "title": "閲覧データの削除画面を開く",
+      "description": "送信キー: Ctrl+Shift+Delete。履歴などの削除対象を選ぶ画面を開きます。削除の確定は別途行います。",
+      "category": "ブラウザー機能",
+      "keys": "Ctrl+Shift+Delete"
+    },
+    {
+      "id": "open-help",
+      "title": "ヘルプを開く",
+      "description": "送信キー: F1。ブラウザーのヘルプを表示します。",
+      "category": "ブラウザー機能",
+      "keys": "F1"
+    },
+    {
+      "id": "send-feedback",
+      "title": "フィードバックを送る画面を開く",
+      "description": "送信キー: Alt+Shift+I。フィードバックを入力する画面を開きます。送信の確定は別途行います。",
+      "category": "ブラウザー機能",
+      "keys": "Alt+Shift+I"
+    },
+    {
+      "id": "switch-profile",
+      "title": "プロフィールを切り替える",
+      "description": "送信キー: Ctrl+Shift+M。別のユーザーやゲストを選ぶメニューを開きます。",
+      "category": "ブラウザー機能",
+      "keys": "Ctrl+Shift+M"
+    },
+    {
+      "id": "toggle-caret-browsing",
+      "title": "カーソルブラウズを切り替え",
+      "description": "送信キー: F7。ページをテキストカーソルで操作する機能を切り替えます。確認画面が出る場合があります。",
+      "category": "ブラウザー機能",
+      "keys": "F7"
+    },
+    {
+      "id": "open-task-manager",
+      "title": "Chromeのタスクマネージャーを開く",
+      "description": "送信キー: Shift+Escape。Chrome内のタブや処理を確認するタスクマネージャーを開きます。",
+      "category": "ブラウザー機能",
+      "keys": "Shift+Escape"
+    },
+    {
+      "id": "open-split-view",
+      "title": "分割ビューを開く",
+      "description": "送信キー: Alt+Shift+N。選択中のタブで分割ビューを開きます。",
+      "category": "ブラウザー機能",
+      "keys": "Alt+Shift+N"
+    },
+    {
+      "id": "focus-toolbar",
+      "title": "ツールバーへフォーカス",
+      "description": "送信キー: Alt+Shift+T。ツールバーの先頭の項目へフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "Alt+Shift+T"
+    },
+    {
+      "id": "focus-menu",
+      "title": "メニューボタンへフォーカス",
+      "description": "送信キー: F10。Chromeのツールバー右端のメニューへフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "F10"
+    },
+    {
+      "id": "focus-next-pane",
+      "title": "次のペインへフォーカス",
+      "description": "送信キー: F6。ブラウザー内のペインやツールバーへ順にフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "F6"
+    },
+    {
+      "id": "focus-web-content",
+      "title": "ページ本文へフォーカス",
+      "description": "送信キー: Ctrl+F6。ページ本文を操作する位置へフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "Ctrl+F6"
+    },
+    {
+      "id": "focus-next-control",
+      "title": "次の項目へフォーカス",
+      "description": "送信キー: Tab。リンクや入力欄など、次の操作項目へフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "Tab"
+    },
+    {
+      "id": "focus-previous-control",
+      "title": "前の項目へフォーカス",
+      "description": "送信キー: Shift+Tab。リンクや入力欄など、前の操作項目へフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "Shift+Tab"
+    },
+    {
+      "id": "focus-inactive-dialog",
+      "title": "非アクティブなダイアログへフォーカス",
+      "description": "送信キー: Alt+Shift+A。表示中の非アクティブなダイアログへフォーカスを移します。",
+      "category": "フォーカス",
+      "keys": "Alt+Shift+A"
+    },
+    {
+      "id": "previous-word",
+      "title": "前の単語へ移動",
+      "description": "送信キー: Ctrl+Left。テキスト入力欄にフォーカスがある状態で使います。前の単語の先頭へカーソルを動かします。",
+      "category": "テキスト編集",
+      "keys": "Ctrl+Left"
+    },
+    {
+      "id": "next-word",
+      "title": "次の単語へ移動",
+      "description": "送信キー: Ctrl+Right。テキスト入力欄にフォーカスがある状態で使います。次の単語へカーソルを動かします。",
+      "category": "テキスト編集",
+      "keys": "Ctrl+Right"
+    },
+    {
+      "id": "delete-previous-word",
+      "title": "前の単語を削除",
+      "description": "送信キー: Ctrl+Backspace。テキスト入力欄にフォーカスがある状態で使います。カーソルの前の単語を削除します。",
+      "category": "テキスト編集",
+      "keys": "Ctrl+Backspace"
+    }
+  ]
+}

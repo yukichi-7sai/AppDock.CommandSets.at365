@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "id": "slack",
+  "title": "Slack",
+  "description": "Windowsデスクトップ版Slackの標準ショートカットです。公式ガイド: https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts",
+  "defaults": {
+    "when": {
+      "scope": "exe",
+      "appletIds": [],
+      "processes": [
+        "slack"
+      ]
+    }
+  },
+  "commands": [
+    {
+      "id": "quick-switcher",
+      "title": "別の会話へ移動",
+      "description": "送信キー: Ctrl+K。チャンネルやDMを名前で探して移動します。別キー: Ctrl+T。",
+      "category": "移動",
+      "keys": "Ctrl+K"
+    },
+    {
+      "id": "previous-conversation",
+      "title": "前のチャンネルやDMへ移動",
+      "description": "送信キー: Alt+Up。サイドバーで現在の会話の上にあるチャンネルやDMを開きます。",
+      "category": "移動",
+      "keys": "Alt+Up"
+    },
+    {
+      "id": "next-conversation",
+      "title": "次のチャンネルやDMへ移動",
+      "description": "送信キー: Alt+Down。サイドバーで現在の会話の下にあるチャンネルやDMを開きます。",
+      "category": "移動",
+      "keys": "Alt+Down"
+    },
+    {
+      "id": "previous-unread-conversation",
+      "title": "前の未読チャンネルやDMへ移動",
+      "description": "送信キー: Alt+Shift+Up。サイドバーを上にたどり、未読の会話を開きます。",
+      "category": "移動",
+      "keys": "Alt+Shift+Up"
+    },
+    {
+      "id": "next-unread-conversation",
+      "title": "次の未読チャンネルやDMへ移動",
+      "description": "送信キー: Alt+Shift+Down。サイドバーを下にたどり、未読の会話を開きます。",
+      "category": "移動",
+      "keys": "Alt+Shift+Down"
+    },
+    {
+      "id": "history-back",
+      "title": "表示の履歴を戻る",
+      "description": "送信キー: Alt+Left。直前に表示していた場所に戻ります。",
+      "category": "移動",
+      "keys": "Alt+Left"
+    },
+    {
+      "id": "history-forward",
+      "title": "表示の履歴を進む",
+      "description": "送信キー: Alt+Right。戻る操作をしたあと、表示の履歴を進みます。",
+      "category": "移動",
+      "keys": "Alt+Right"
+    },
+    {
+      "id": "focus-next",
+      "title": "次の領域にフォーカスを移す",
+      "description": "送信キー: F6。サイドバーや会話欄など、次の領域にフォーカスを移します。",
+      "category": "移動",
+      "keys": "F6"
+    },
+    {
+      "id": "focus-previous",
+      "title": "前の領域にフォーカスを移す",
+      "description": "送信キー: Shift+F6。サイドバーや会話欄など、前の領域にフォーカスを移します。",
+      "category": "移動",
+      "keys": "Shift+F6"
+    },
+    {
+      "id": "open-home",
+      "title": "ホームを開く",
+      "description": "送信キー: Ctrl+Shift+1。「ホーム」ビューに切り替えます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+1"
+    },
+    {
+      "id": "open-dms",
+      "title": "DM一覧を開く",
+      "description": "送信キー: Ctrl+Shift+2。ダイレクトメッセージの一覧に切り替えます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+2"
+    },
+    {
+      "id": "open-activity",
+      "title": "アクティビティを開く",
+      "description": "送信キー: Ctrl+Shift+M。メンションや返信などを確認できる「アクティビティ」ビューを開きます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+M"
+    },
+    {
+      "id": "open-threads",
+      "title": "スレッド一覧を開く",
+      "description": "送信キー: Ctrl+Shift+T。参加しているスレッドの一覧を開きます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+T"
+    },
+    {
+      "id": "open-more",
+      "title": "「その他」を開く",
+      "description": "送信キー: Ctrl+Shift+0。ナビゲーションバーの「その他」を開きます。canvasの編集中は、書式設定の操作になります。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+0"
+    },
+    {
+      "id": "browse-channels",
+      "title": "チャンネルを探す",
+      "description": "送信キー: Ctrl+Shift+L。ワークスペースのチャンネルを探せる画面を開きます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+L"
+    },
+    {
+      "id": "open-conversation-details",
+      "title": "会話の詳細を開く",
+      "description": "送信キー: Ctrl+Shift+I。表示中のチャンネルやDMの詳細を開きます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+I"
+    },
+    {
+      "id": "open-member-directory",
+      "title": "メンバーディレクトリを開く",
+      "description": "送信キー: Ctrl+Shift+E。ワークスペースのメンバーを探せる画面を開きます。",
+      "category": "画面",
+      "keys": "Ctrl+Shift+E"
+    },
+    {
+      "id": "close-right-sidebar",
+      "title": "右サイドバーを閉じる",
+      "description": "送信キー: Ctrl+.。スレッドなどを表示している右サイドバーを閉じます。",
+      "category": "画面",
+      "keys": "Ctrl+."
+    },
+    {
+      "id": "toggle-workspace-switcher",
+      "title": "ワークスペーススイッチャーを開閉",
+      "description": "送信キー: Ctrl+Shift+S。左側のワークスペーススイッチャーを展開または折りたたみます。",
+      "category": "ワークスペースとタブ",
+      "keys": "Ctrl+Shift+S"
+    },
+    {
+      "id": "previous-workspace",
+      "title": "前のワークスペースに切り替え",
+      "description": "送信キー: Ctrl+Shift+Tab。複数のワークスペースにサインインしているとき、前のワークスペースに切り替えます。",
+      "category": "ワークスペースとタブ",
+      "keys": "Ctrl+Shift+Tab"
+    },
+    {
+      "id": "next-workspace",
+      "title": "次のワークスペースに切り替え",
+      "description": "送信キー: Ctrl+Tab。複数のワークスペースにサインインしているとき、次のワークスペースに切り替えます。",
+      "category": "ワークスペースとタブ",
+      "keys": "Ctrl+Tab"
+    },
+    {
+      "id": "previous-tab",
+      "title": "前のナビゲーションタブに切り替え",
+      "description": "送信キー: Ctrl+PageUp。Slackのナビゲーションバーで前のタブを表示します。",
+      "category": "ワークスペースとタブ",
+      "keys": "Ctrl+PageUp"
+    },
+    {
+      "id": "next-tab",
+      "title": "次のナビゲーションタブに切り替え",
+      "description": "送信キー: Ctrl+PageDown。Slackのナビゲーションバーで次のタブを表示します。",
+      "category": "ワークスペースとタブ",
+      "keys": "Ctrl+PageDown"
+    },
+    {
+      "id": "search-workspace",
+      "title": "Slackを検索",
+      "description": "送信キー: Ctrl+G。検索欄を開きます。canvas内の検索中は、次の一致箇所に移動します。",
+      "category": "検索",
+      "keys": "Ctrl+G"
+    },
+    {
+      "id": "search-current-conversation",
+      "title": "現在の会話を検索",
+      "description": "送信キー: Ctrl+F。表示中のチャンネルやDMを検索します。canvasにフォーカスがあると、canvas内の検索になります。",
+      "category": "検索",
+      "keys": "Ctrl+F"
+    },
+    {
+      "id": "open-all-unreads",
+      "title": "全未読画面を開く",
+      "description": "送信キー: Ctrl+Shift+A。ワークスペースの未読メッセージをまとめて確認します。",
+      "category": "未読と既読",
+      "keys": "Ctrl+Shift+A"
+    },
+    {
+      "id": "jump-to-latest-unread",
+      "title": "会話の最新の未読メッセージへ移動",
+      "description": "送信キー: Ctrl+J。表示中の会話で最も新しい未読メッセージへ移動します。",
+      "category": "未読と既読",
+      "keys": "Ctrl+J"
+    },
+    {
+      "id": "mark-conversation-read",
+      "title": "会話のメッセージを既読にする",
+      "description": "送信キー: Escape。現在の会話のメッセージを既読にします。全未読画面では、フォーカス中のグループが対象です。",
+      "category": "未読と既読",
+      "keys": "Escape"
+    },
+    {
+      "id": "mark-all-messages-read",
+      "title": "すべてのメッセージを既読にする",
+      "description": "送信キー: Shift+Escape。現在のワークスペースにあるすべての未読メッセージを既読にします。",
+      "category": "未読と既読",
+      "keys": "Shift+Escape"
+    },
+    {
+      "id": "mark-unread-above-focused-message",
+      "title": "フォーカス中のメッセージより上を未読にする",
+      "description": "送信キー: U。メッセージにフォーカスを合わせ、そのメッセージより上に表示されているメッセージを未読にします。",
+      "category": "未読と既読",
+      "keys": "U"
+    },
+    {
+      "id": "compose-message",
+      "title": "新しいメッセージを作成",
+      "description": "送信キー: Ctrl+N。送信先を選べる新規メッセージの入力欄を開きます。",
+      "category": "メッセージ",
+      "keys": "Ctrl+N"
+    },
+    {
+      "id": "undo-send",
+      "title": "メッセージの送信を取り消す",
+      "description": "送信キー: Ctrl+Z。送信直後に使います。入力欄やcanvasの編集中は、直前の編集を元に戻します。",
+      "category": "メッセージ",
+      "keys": "Ctrl+Z"
+    },
+    {
+      "id": "edit-last-message",
+      "title": "自分の直前のメッセージを編集",
+      "description": "送信キー: Up。上矢印キーの環境設定が既定で、メッセージ入力欄が空のときに使います。",
+      "category": "メッセージ",
+      "keys": "Up"
+    },
+    {
+      "id": "edit-focused-message",
+      "title": "フォーカス中のメッセージを編集",
+      "description": "送信キー: E。自分が送信したメッセージにフォーカスを合わせて使います。",
+      "category": "メッセージ",
+      "keys": "E"
+    },
+    {
+      "id": "reply-in-thread",
+      "title": "フォーカス中のメッセージのスレッドを開く",
+      "description": "送信キー: T。メッセージにフォーカスを合わせて使います。スレッドを開始するか、そのスレッドに返信できます。別キー: Right。",
+      "category": "メッセージ",
+      "keys": "T"
+    },
+    {
+      "id": "forward-focused-message",
+      "title": "フォーカス中のメッセージを転送",
+      "description": "送信キー: F。メッセージにフォーカスを合わせて使います。転送先を選ぶ画面を開きます。",
+      "category": "メッセージ",
+      "keys": "F"
+    },
+    {
+      "id": "toggle-message-pin",
+      "title": "フォーカス中のメッセージのピン留めを切り替え",
+      "description": "送信キー: P。メッセージにフォーカスを合わせて使います。ピン留めを追加または解除します。",
+      "category": "メッセージ",
+      "keys": "P"
+    },
+    {
+      "id": "toggle-message-bookmark",
+      "title": "フォーカス中のメッセージのブックマークを切り替え",
+      "description": "送信キー: A。メッセージにフォーカスを合わせて使います。自分のブックマークに追加または解除します。",
+      "category": "メッセージ",
+      "keys": "A"
+    },
+    {
+      "id": "create-message-reminder",
+      "title": "フォーカス中のメッセージのリマインダーを作成",
+      "description": "送信キー: M。メッセージにフォーカスを合わせて使います。リマインダーの日時を選ぶ画面を開きます。",
+      "category": "メッセージ",
+      "keys": "M"
+    },
+    {
+      "id": "react-to-message",
+      "title": "フォーカス中のメッセージにリアクション",
+      "description": "送信キー: R。メッセージにフォーカスを合わせて使います。リアクション用の絵文字を選ぶ一覧を開きます。",
+      "category": "メッセージ",
+      "keys": "R"
+    },
+    {
+      "id": "insert-line-break",
+      "title": "メッセージ内で改行",
+      "description": "送信キー: Shift+Enter。メッセージ入力欄のカーソル位置で改行します。",
+      "category": "メッセージの書式",
+      "keys": "Shift+Enter"
+    },
+    {
+      "id": "format-bold",
+      "title": "選んだ文字を太字にする",
+      "description": "送信キー: Ctrl+B。メッセージ入力欄で選択した文字に太字を適用します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+B"
+    },
+    {
+      "id": "format-italic",
+      "title": "選んだ文字を斜体にする",
+      "description": "送信キー: Ctrl+I。メッセージ入力欄で選択した文字に斜体を適用します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+I"
+    },
+    {
+      "id": "format-strikethrough",
+      "title": "選んだ文字に取り消し線を引く",
+      "description": "送信キー: Ctrl+Shift+X。メッセージ入力欄で選択した文字に取り消し線を適用します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+X"
+    },
+    {
+      "id": "insert-link",
+      "title": "選んだ文字にリンクを付ける",
+      "description": "送信キー: Ctrl+Shift+U。メッセージ入力欄で選択した文字にリンクを設定します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+U"
+    },
+    {
+      "id": "format-quote",
+      "title": "メッセージに引用の書式を付ける",
+      "description": "送信キー: Ctrl+Shift+9。メッセージ入力欄で選択した内容に引用の書式を適用します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+9"
+    },
+    {
+      "id": "format-inline-code",
+      "title": "選んだ文字にコードの書式を付ける",
+      "description": "送信キー: Ctrl+Shift+C。メッセージ入力欄で選択した文字にインラインコードの書式を適用します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+C"
+    },
+    {
+      "id": "format-code-block",
+      "title": "コードブロックを作る",
+      "description": "送信キー: Ctrl+Alt+Shift+C。メッセージ入力欄で選択した内容をコードブロックにします。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Alt+Shift+C"
+    },
+    {
+      "id": "format-bulleted-list",
+      "title": "箇条書きにする",
+      "description": "送信キー: Ctrl+Shift+8。メッセージ入力欄で選択した内容を箇条書きにします。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+8"
+    },
+    {
+      "id": "format-numbered-list",
+      "title": "番号付きリストにする",
+      "description": "送信キー: Ctrl+Shift+7。メッセージ入力欄で選択した内容を番号付きリストにします。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+7"
+    },
+    {
+      "id": "apply-markdown",
+      "title": "Markdownの書式を適用",
+      "description": "送信キー: Ctrl+Shift+F。メッセージ入力欄のテキストにMarkdownの書式を適用します。",
+      "category": "メッセージの書式",
+      "keys": "Ctrl+Shift+F"
+    },
+    {
+      "id": "upload-file",
+      "title": "添付ファイルを選ぶ",
+      "description": "送信キー: Ctrl+O。アップロードするファイルを選ぶダイアログを開きます。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+O"
+    },
+    {
+      "id": "open-downloads",
+      "title": "ダウンロード一覧を開く",
+      "description": "送信キー: Ctrl+Shift+J。Slackでダウンロードしたファイルの一覧を表示します。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+Shift+J"
+    },
+    {
+      "id": "create-snippet",
+      "title": "スニペットを作成",
+      "description": "送信キー: Ctrl+Shift+Enter。コードやテキストのスニペットを作る画面を開きます。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+Shift+Enter"
+    },
+    {
+      "id": "create-canvas",
+      "title": "新しいcanvasを作成",
+      "description": "送信キー: Ctrl+Shift+N。新規canvasを作成します。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+Shift+N"
+    },
+    {
+      "id": "open-canvas-comments",
+      "title": "canvasのコメントを表示",
+      "description": "送信キー: Ctrl+Alt+T。canvas内にフォーカスがあるとき、コメントスレッドを表示します。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+Alt+T"
+    },
+    {
+      "id": "toggle-canvas-view",
+      "title": "canvasの閲覧・編集表示を切り替え",
+      "description": "送信キー: Ctrl+Alt+R。canvas内にフォーカスがあるとき、閲覧ビューと編集ビューを切り替えます。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+Alt+R"
+    },
+    {
+      "id": "copy-canvas-anchor",
+      "title": "canvasのセクションリンクをコピー",
+      "description": "送信キー: Ctrl+Alt+Q。canvas内でフォーカス中のセクションへのリンクをコピーします。",
+      "category": "ファイルとcanvas",
+      "keys": "Ctrl+Alt+Q"
+    },
+    {
+      "id": "toggle-huddle",
+      "title": "ハドルミーティングを操作",
+      "description": "送信キー: Ctrl+Shift+H。会話で使うと、ハドルの状態に応じて開始・参加・退出・終了を行います。canvasの編集中は、検索と置換を開きます。",
+      "category": "ハドルミーティング",
+      "keys": "Ctrl+Shift+H"
+    },
+    {
+      "id": "toggle-huddle-mute",
+      "title": "ハドルのマイクのミュートを切り替え",
+      "description": "送信キー: Ctrl+Shift+Space。参加中のハドルミーティングで自分のマイクのミュートを切り替えます。",
+      "category": "ハドルミーティング",
+      "keys": "Ctrl+Shift+Space"
+    },
+    {
+      "id": "set-status",
+      "title": "自分のステータスを設定",
+      "description": "送信キー: Ctrl+Shift+Y。プロフィールのステータスを入力する画面を開きます。",
+      "category": "Slackとウィンドウ",
+      "keys": "Ctrl+Shift+Y"
+    },
+    {
+      "id": "toggle-fullscreen",
+      "title": "全画面表示を切り替え",
+      "description": "送信キー: F11。現在のSlackウィンドウの全画面表示を切り替えます。",
+      "category": "Slackとウィンドウ",
+      "keys": "F11"
+    },
+    {
+      "id": "close-window",
+      "title": "現在のウィンドウを閉じる",
+      "description": "送信キー: Ctrl+W。表示中のSlackウィンドウを閉じます。",
+      "category": "Slackとウィンドウ",
+      "keys": "Ctrl+W"
+    },
+    {
+      "id": "reopen-window",
+      "title": "最後に閉じたウィンドウを開く",
+      "description": "送信キー: Ctrl+Shift+W。最後に閉じたSlackウィンドウを開き直します。",
+      "category": "Slackとウィンドウ",
+      "keys": "Ctrl+Shift+W"
+    },
+    {
+      "id": "quit-slack",
+      "title": "Slackを終了",
+      "description": "送信キー: Ctrl+Q。Slackデスクトップアプリを終了します。",
+      "category": "Slackとウィンドウ",
+      "keys": "Ctrl+Q"
+    }
+  ]
+}
