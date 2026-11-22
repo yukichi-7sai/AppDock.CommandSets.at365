@@ -1,0 +1,1706 @@
+{
+  "schemaVersion": 1,
+  "revision": "3290d5fad6f595056de253e4804a0839b794ba3a",
+  "sets": [
+    {
+      "id": "chrome",
+      "title": "Google Chrome",
+      "description": "Windows版Google Chromeの公式ヘルプを基にしたキー操作です。フォーカスが必要な操作は各コマンドの説明を確認してください。公式ヘルプ: https://support.google.com/chrome/answer/157179?hl=ja",
+      "path": "sets/chrome.json",
+      "updatedAt": "2026-11-23T00:47:32+09:00",
+      "sha256": "abf0cba25f0df64eff61a22b6b139e601a62ad0c17d8dca0f7e4d14ca59ef122",
+      "commands": [
+        {
+          "title": "タブを開く",
+          "keys": "Ctrl+T",
+          "category": "タブ"
+        },
+        {
+          "title": "タブを閉じる",
+          "keys": "Ctrl+F4",
+          "category": "タブ"
+        },
+        {
+          "title": "閉じたタブを開き直す",
+          "keys": "Ctrl+Shift+T",
+          "category": "タブ"
+        },
+        {
+          "title": "次のタブへ移動",
+          "keys": "Ctrl+Tab",
+          "category": "タブ"
+        },
+        {
+          "title": "前のタブへ移動",
+          "keys": "Ctrl+Shift+Tab",
+          "category": "タブ"
+        },
+        {
+          "title": "1番目のタブへ移動",
+          "keys": "Ctrl+1",
+          "category": "タブ"
+        },
+        {
+          "title": "2番目のタブへ移動",
+          "keys": "Ctrl+2",
+          "category": "タブ"
+        },
+        {
+          "title": "3番目のタブへ移動",
+          "keys": "Ctrl+3",
+          "category": "タブ"
+        },
+        {
+          "title": "4番目のタブへ移動",
+          "keys": "Ctrl+4",
+          "category": "タブ"
+        },
+        {
+          "title": "5番目のタブへ移動",
+          "keys": "Ctrl+5",
+          "category": "タブ"
+        },
+        {
+          "title": "6番目のタブへ移動",
+          "keys": "Ctrl+6",
+          "category": "タブ"
+        },
+        {
+          "title": "7番目のタブへ移動",
+          "keys": "Ctrl+7",
+          "category": "タブ"
+        },
+        {
+          "title": "8番目のタブへ移動",
+          "keys": "Ctrl+8",
+          "category": "タブ"
+        },
+        {
+          "title": "最後のタブへ移動",
+          "keys": "Ctrl+9",
+          "category": "タブ"
+        },
+        {
+          "title": "タブを左へ移動",
+          "keys": "Ctrl+Shift+PageUp",
+          "category": "タブ"
+        },
+        {
+          "title": "タブを右へ移動",
+          "keys": "Ctrl+Shift+PageDown",
+          "category": "タブ"
+        },
+        {
+          "title": "タブ・グループを左へ移動",
+          "keys": "Ctrl+Left",
+          "category": "タブグループ"
+        },
+        {
+          "title": "タブ・グループを右へ移動",
+          "keys": "Ctrl+Right",
+          "category": "タブグループ"
+        },
+        {
+          "title": "タブグループを展開・折りたたみ",
+          "keys": "Space",
+          "category": "タブグループ"
+        },
+        {
+          "title": "ウィンドウを開く",
+          "keys": "Ctrl+N",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "シークレットウィンドウを開く",
+          "keys": "Ctrl+Shift+N",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "ウィンドウを閉じる",
+          "keys": "Ctrl+Shift+W",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "全画面表示を切り替え",
+          "keys": "F11",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "前のページへ戻る",
+          "keys": "Alt+Left",
+          "category": "ページ移動"
+        },
+        {
+          "title": "次のページへ進む",
+          "keys": "Alt+Right",
+          "category": "ページ移動"
+        },
+        {
+          "title": "ホームページを開く",
+          "keys": "Alt+Home",
+          "category": "ページ移動"
+        },
+        {
+          "title": "ページを再読み込み",
+          "keys": "F5",
+          "category": "ページ移動"
+        },
+        {
+          "title": "キャッシュを使わず再読み込み",
+          "keys": "Shift+F5",
+          "category": "ページ移動"
+        },
+        {
+          "title": "読み込みを停止",
+          "keys": "Escape",
+          "category": "ページ移動"
+        },
+        {
+          "title": "ページを拡大",
+          "keys": "Ctrl+Plus",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページを縮小",
+          "keys": "Ctrl+Minus",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページの倍率を戻す",
+          "keys": "Ctrl+0",
+          "category": "ページ表示"
+        },
+        {
+          "title": "1画面分下へ移動",
+          "keys": "PageDown",
+          "category": "ページ表示"
+        },
+        {
+          "title": "1画面分上へ移動",
+          "keys": "PageUp",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページの先頭へ移動",
+          "keys": "Home",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページの末尾へ移動",
+          "keys": "End",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページ内を検索",
+          "keys": "Ctrl+F",
+          "category": "ページ内検索"
+        },
+        {
+          "title": "次の検索結果へ移動",
+          "keys": "Ctrl+G",
+          "category": "ページ内検索"
+        },
+        {
+          "title": "前の検索結果へ移動",
+          "keys": "Ctrl+Shift+G",
+          "category": "ページ内検索"
+        },
+        {
+          "title": "アドレスバーを選択",
+          "keys": "Ctrl+L",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "アドレスバーで検索",
+          "keys": "Ctrl+E",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "サイト名を補って開く",
+          "keys": "Ctrl+Enter",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "サイト名を補って別ウィンドウで開く",
+          "keys": "Ctrl+Shift+Enter",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "入力した語句を新しいタブで検索",
+          "keys": "Alt+Enter",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "入力した検索を確定",
+          "keys": "Enter",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "入力した検索エンジンを選択",
+          "keys": "Tab",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "選んだ予測候補を削除",
+          "keys": "Shift+Delete",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "ページをブックマークに登録",
+          "keys": "Ctrl+D",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "すべてのタブをブックマークに登録",
+          "keys": "Ctrl+Shift+D",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "ブックマークバーを切り替え",
+          "keys": "Ctrl+Shift+B",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "ブックマークマネージャーを開く",
+          "keys": "Ctrl+Shift+O",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "閲覧履歴を開く",
+          "keys": "Ctrl+H",
+          "category": "履歴・ダウンロード"
+        },
+        {
+          "title": "ダウンロードを開く",
+          "keys": "Ctrl+J",
+          "category": "履歴・ダウンロード"
+        },
+        {
+          "title": "ファイルを開く",
+          "keys": "Ctrl+O",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "ページを保存",
+          "keys": "Ctrl+S",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "ページを印刷",
+          "keys": "Ctrl+P",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "ページのソースを表示",
+          "keys": "Ctrl+U",
+          "category": "開発ツール"
+        },
+        {
+          "title": "開発者ツールを開く",
+          "keys": "F12",
+          "category": "開発ツール"
+        },
+        {
+          "title": "JavaScriptコンソールを開く",
+          "keys": "Ctrl+Shift+J",
+          "category": "開発ツール"
+        },
+        {
+          "title": "ブラウザーのメニューを開く",
+          "keys": "Alt+F",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "閲覧データの削除画面を開く",
+          "keys": "Ctrl+Shift+Delete",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "ヘルプを開く",
+          "keys": "F1",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "フィードバックを送る画面を開く",
+          "keys": "Alt+Shift+I",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "プロフィールを切り替える",
+          "keys": "Ctrl+Shift+M",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "カーソルブラウズを切り替え",
+          "keys": "F7",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "Chromeのタスクマネージャーを開く",
+          "keys": "Shift+Escape",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "分割ビューを開く",
+          "keys": "Alt+Shift+N",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "ツールバーへフォーカス",
+          "keys": "Alt+Shift+T",
+          "category": "フォーカス"
+        },
+        {
+          "title": "メニューボタンへフォーカス",
+          "keys": "F10",
+          "category": "フォーカス"
+        },
+        {
+          "title": "次のペインへフォーカス",
+          "keys": "F6",
+          "category": "フォーカス"
+        },
+        {
+          "title": "ページ本文へフォーカス",
+          "keys": "Ctrl+F6",
+          "category": "フォーカス"
+        },
+        {
+          "title": "次の項目へフォーカス",
+          "keys": "Tab",
+          "category": "フォーカス"
+        },
+        {
+          "title": "前の項目へフォーカス",
+          "keys": "Shift+Tab",
+          "category": "フォーカス"
+        },
+        {
+          "title": "非アクティブなダイアログへフォーカス",
+          "keys": "Alt+Shift+A",
+          "category": "フォーカス"
+        },
+        {
+          "title": "前の単語へ移動",
+          "keys": "Ctrl+Left",
+          "category": "テキスト編集"
+        },
+        {
+          "title": "次の単語へ移動",
+          "keys": "Ctrl+Right",
+          "category": "テキスト編集"
+        },
+        {
+          "title": "前の単語を削除",
+          "keys": "Ctrl+Backspace",
+          "category": "テキスト編集"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "title": "Discord",
+      "description": "Windowsデスクトップ版Discordの標準ショートカットです。公式ガイド: https://support.discord.com/hc/en-us/articles/31232432266647-Discord-Commands-Shortcuts-and-Navigation-Guide",
+      "path": "sets/discord.json",
+      "updatedAt": "2026-11-23T00:47:32+09:00",
+      "sha256": "887d86ff6a86c913158c1a356ca4bf32b45ca8f0f64c8c6404b49da0537020c1",
+      "commands": [
+        {
+          "title": "チャンネルやDMを探す",
+          "keys": "Ctrl+K",
+          "category": "移動"
+        },
+        {
+          "title": "前のチャンネルへ移動",
+          "keys": "Alt+Up",
+          "category": "移動"
+        },
+        {
+          "title": "次のチャンネルへ移動",
+          "keys": "Alt+Down",
+          "category": "移動"
+        },
+        {
+          "title": "前の未読チャンネルへ移動",
+          "keys": "Alt+Shift+Up",
+          "category": "移動"
+        },
+        {
+          "title": "次の未読チャンネルへ移動",
+          "keys": "Alt+Shift+Down",
+          "category": "移動"
+        },
+        {
+          "title": "メンションのある前の未読チャンネルへ移動",
+          "keys": "Ctrl+Alt+Shift+Up",
+          "category": "移動"
+        },
+        {
+          "title": "メンションのある次の未読チャンネルへ移動",
+          "keys": "Ctrl+Alt+Shift+Down",
+          "category": "移動"
+        },
+        {
+          "title": "次のセクションへ移動",
+          "keys": "F6",
+          "category": "移動"
+        },
+        {
+          "title": "前のセクションへ移動",
+          "keys": "Shift+F6",
+          "category": "移動"
+        },
+        {
+          "title": "現在のチャンネルを検索",
+          "keys": "Ctrl+F",
+          "category": "検索"
+        },
+        {
+          "title": "チャンネルを横断して検索",
+          "keys": "Ctrl+Shift+F",
+          "category": "検索"
+        },
+        {
+          "title": "チャットを上へスクロール",
+          "keys": "PageUp",
+          "category": "チャット"
+        },
+        {
+          "title": "チャットを下へスクロール",
+          "keys": "PageDown",
+          "category": "チャット"
+        },
+        {
+          "title": "最も古い未読メッセージへ移動",
+          "keys": "Shift+PageUp",
+          "category": "チャット"
+        },
+        {
+          "title": "チャンネルを既読にする",
+          "keys": "Escape",
+          "category": "チャット"
+        },
+        {
+          "title": "サーバーを既読にする",
+          "keys": "Shift+Escape",
+          "category": "チャット"
+        },
+        {
+          "title": "自分の直前のメッセージを編集",
+          "keys": "Shift+Up",
+          "category": "チャット"
+        },
+        {
+          "title": "ピン留め一覧を切り替え",
+          "keys": "Ctrl+P",
+          "category": "チャット"
+        },
+        {
+          "title": "メンバー一覧を切り替え",
+          "keys": "Ctrl+U",
+          "category": "チャット"
+        },
+        {
+          "title": "絵文字一覧を開く",
+          "keys": "Ctrl+E",
+          "category": "チャット"
+        },
+        {
+          "title": "GIF一覧を開く",
+          "keys": "Ctrl+G",
+          "category": "チャット"
+        },
+        {
+          "title": "添付ファイルを選ぶ",
+          "keys": "Ctrl+Shift+U",
+          "category": "チャット"
+        },
+        {
+          "title": "フォーカス中のメッセージに返信",
+          "keys": "R",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージを引用",
+          "keys": "Q",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージにリアクション",
+          "keys": "Plus",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージを編集",
+          "keys": "E",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージをピン留め",
+          "keys": "P",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージをコピー",
+          "keys": "Ctrl+C",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージを未読にする",
+          "keys": "Alt+Enter",
+          "category": "メッセージ"
+        },
+        {
+          "title": "マイクのミュートを切り替え",
+          "keys": "Ctrl+Shift+M",
+          "category": "通話"
+        },
+        {
+          "title": "スピーカーミュートを切り替え",
+          "keys": "Ctrl+Shift+D",
+          "category": "通話"
+        },
+        {
+          "title": "着信に応答",
+          "keys": "Ctrl+Enter",
+          "category": "通話"
+        },
+        {
+          "title": "接続中の音声チャンネルを表示",
+          "keys": "Ctrl+Alt+A",
+          "category": "通話"
+        },
+        {
+          "title": "サーバーを作成または参加",
+          "keys": "Ctrl+Shift+N",
+          "category": "その他"
+        },
+        {
+          "title": "グループDMを作成",
+          "keys": "Ctrl+Shift+T",
+          "category": "その他"
+        },
+        {
+          "title": "ショートカット一覧を切り替え",
+          "keys": "Ctrl+/",
+          "category": "その他"
+        },
+        {
+          "title": "ヘルプを開く",
+          "keys": "Ctrl+Shift+H",
+          "category": "その他"
+        }
+      ]
+    },
+    {
+      "id": "edge",
+      "title": "Microsoft Edge",
+      "description": "Windows版Microsoft Edgeの公式ヘルプを基にしたキー操作です。フォーカスが必要な操作は各コマンドの説明を確認してください。公式ヘルプ: https://support.microsoft.com/ja-jp/edge/keyboard-shortcuts-in-microsoft-edge",
+      "path": "sets/edge.json",
+      "updatedAt": "2026-11-23T00:47:32+09:00",
+      "sha256": "9e6708013e33d1e02a7890ffe03c84ddd523fe52c811761d6fb41fac8569583c",
+      "commands": [
+        {
+          "title": "タブを開く",
+          "keys": "Ctrl+T",
+          "category": "タブ"
+        },
+        {
+          "title": "タブを閉じる",
+          "keys": "Ctrl+F4",
+          "category": "タブ"
+        },
+        {
+          "title": "閉じたタブを開き直す",
+          "keys": "Ctrl+Shift+T",
+          "category": "タブ"
+        },
+        {
+          "title": "次のタブへ移動",
+          "keys": "Ctrl+Tab",
+          "category": "タブ"
+        },
+        {
+          "title": "前のタブへ移動",
+          "keys": "Ctrl+Shift+Tab",
+          "category": "タブ"
+        },
+        {
+          "title": "1番目のタブへ移動",
+          "keys": "Ctrl+1",
+          "category": "タブ"
+        },
+        {
+          "title": "2番目のタブへ移動",
+          "keys": "Ctrl+2",
+          "category": "タブ"
+        },
+        {
+          "title": "3番目のタブへ移動",
+          "keys": "Ctrl+3",
+          "category": "タブ"
+        },
+        {
+          "title": "4番目のタブへ移動",
+          "keys": "Ctrl+4",
+          "category": "タブ"
+        },
+        {
+          "title": "5番目のタブへ移動",
+          "keys": "Ctrl+5",
+          "category": "タブ"
+        },
+        {
+          "title": "6番目のタブへ移動",
+          "keys": "Ctrl+6",
+          "category": "タブ"
+        },
+        {
+          "title": "7番目のタブへ移動",
+          "keys": "Ctrl+7",
+          "category": "タブ"
+        },
+        {
+          "title": "8番目のタブへ移動",
+          "keys": "Ctrl+8",
+          "category": "タブ"
+        },
+        {
+          "title": "最後のタブへ移動",
+          "keys": "Ctrl+9",
+          "category": "タブ"
+        },
+        {
+          "title": "タブを複製",
+          "keys": "Ctrl+Shift+K",
+          "category": "タブ"
+        },
+        {
+          "title": "タブのミュートを切り替え",
+          "keys": "Ctrl+M",
+          "category": "タブ"
+        },
+        {
+          "title": "ウィンドウを開く",
+          "keys": "Ctrl+N",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "InPrivateウィンドウを開く",
+          "keys": "Ctrl+Shift+N",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "ウィンドウを閉じる",
+          "keys": "Ctrl+Shift+W",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "全画面表示を切り替え",
+          "keys": "F11",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "前のページへ戻る",
+          "keys": "Alt+Left",
+          "category": "ページ移動"
+        },
+        {
+          "title": "次のページへ進む",
+          "keys": "Alt+Right",
+          "category": "ページ移動"
+        },
+        {
+          "title": "ホームページを開く",
+          "keys": "Alt+Home",
+          "category": "ページ移動"
+        },
+        {
+          "title": "ページを再読み込み",
+          "keys": "F5",
+          "category": "ページ移動"
+        },
+        {
+          "title": "キャッシュを使わず再読み込み",
+          "keys": "Shift+F5",
+          "category": "ページ移動"
+        },
+        {
+          "title": "読み込みを停止",
+          "keys": "Escape",
+          "category": "ページ移動"
+        },
+        {
+          "title": "ページを拡大",
+          "keys": "Ctrl+Plus",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページを縮小",
+          "keys": "Ctrl+Minus",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページの倍率を戻す",
+          "keys": "Ctrl+0",
+          "category": "ページ表示"
+        },
+        {
+          "title": "1画面分下へ移動",
+          "keys": "PageDown",
+          "category": "ページ表示"
+        },
+        {
+          "title": "1画面分上へ移動",
+          "keys": "PageUp",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページの先頭へ移動",
+          "keys": "Home",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページの末尾へ移動",
+          "keys": "End",
+          "category": "ページ表示"
+        },
+        {
+          "title": "ページ内を検索",
+          "keys": "Ctrl+F",
+          "category": "ページ内検索"
+        },
+        {
+          "title": "次の検索結果へ移動",
+          "keys": "Ctrl+G",
+          "category": "ページ内検索"
+        },
+        {
+          "title": "前の検索結果へ移動",
+          "keys": "Ctrl+Shift+G",
+          "category": "ページ内検索"
+        },
+        {
+          "title": "アドレスバーを選択",
+          "keys": "Ctrl+L",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "アドレスバーで検索",
+          "keys": "Ctrl+E",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "サイト名を補って開く",
+          "keys": "Ctrl+Enter",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "貼り付けて検索・移動",
+          "keys": "Ctrl+Shift+L",
+          "category": "アドレスバー・検索"
+        },
+        {
+          "title": "ページをお気に入りに登録",
+          "keys": "Ctrl+D",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "すべてのタブをお気に入りに登録",
+          "keys": "Ctrl+Shift+D",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "お気に入りバーを切り替え",
+          "keys": "Ctrl+Shift+B",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "お気に入りを開く",
+          "keys": "Ctrl+Shift+O",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "お気に入りバーへフォーカス",
+          "keys": "Alt+Shift+B",
+          "category": "ブックマーク・お気に入り"
+        },
+        {
+          "title": "閲覧履歴を開く",
+          "keys": "Ctrl+H",
+          "category": "履歴・ダウンロード"
+        },
+        {
+          "title": "ダウンロードを開く",
+          "keys": "Ctrl+J",
+          "category": "履歴・ダウンロード"
+        },
+        {
+          "title": "ファイルを開く",
+          "keys": "Ctrl+O",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "ページを保存",
+          "keys": "Ctrl+S",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "ページを印刷",
+          "keys": "Ctrl+P",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "システムの画面で印刷",
+          "keys": "Ctrl+Shift+P",
+          "category": "ファイル・印刷"
+        },
+        {
+          "title": "音声読み上げを切り替え",
+          "keys": "Ctrl+Shift+U",
+          "category": "読み上げ・リーダー"
+        },
+        {
+          "title": "イマーシブリーダーを切り替え",
+          "keys": "F9",
+          "category": "読み上げ・リーダー"
+        },
+        {
+          "title": "ページのソースを表示",
+          "keys": "Ctrl+U",
+          "category": "開発ツール"
+        },
+        {
+          "title": "開発者ツールを開く",
+          "keys": "F12",
+          "category": "開発ツール"
+        },
+        {
+          "title": "ブラウザーのメニューを開く",
+          "keys": "Alt+F",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "閲覧データの削除画面を開く",
+          "keys": "Ctrl+Shift+Delete",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "ヘルプを開く",
+          "keys": "F1",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "フィードバックを送る画面を開く",
+          "keys": "Alt+Shift+I",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "プロフィールを切り替える",
+          "keys": "Ctrl+Shift+M",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "カーソルブラウズを切り替え",
+          "keys": "F7",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "コレクションを開く",
+          "keys": "Ctrl+Shift+Y",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "サイドバー検索を開く",
+          "keys": "Ctrl+Shift+E",
+          "category": "ブラウザー機能"
+        },
+        {
+          "title": "ツールバーへフォーカス",
+          "keys": "Alt+Shift+T",
+          "category": "フォーカス"
+        },
+        {
+          "title": "メニューボタンへフォーカス",
+          "keys": "F10",
+          "category": "フォーカス"
+        },
+        {
+          "title": "次のペインへフォーカス",
+          "keys": "F6",
+          "category": "フォーカス"
+        },
+        {
+          "title": "ページ本文へフォーカス",
+          "keys": "Ctrl+F6",
+          "category": "フォーカス"
+        },
+        {
+          "title": "次の項目へフォーカス",
+          "keys": "Tab",
+          "category": "フォーカス"
+        },
+        {
+          "title": "前の項目へフォーカス",
+          "keys": "Shift+Tab",
+          "category": "フォーカス"
+        },
+        {
+          "title": "前のペインへフォーカス",
+          "keys": "Shift+F6",
+          "category": "フォーカス"
+        },
+        {
+          "title": "書式なしで貼り付け",
+          "keys": "Ctrl+Shift+V",
+          "category": "テキスト編集"
+        }
+      ]
+    },
+    {
+      "id": "editing",
+      "title": "テキスト編集",
+      "description": "一般的な編集キーのサンプルです。対象アプリに合わせて変更できます。",
+      "path": "sets/editing.json",
+      "updatedAt": "2026-11-23T00:47:32+09:00",
+      "sha256": "0d19560000dcaa33e5173438c67b6e74e13cb5e2033e4e3b53287a107a3255de",
+      "commands": [
+        {
+          "title": "コピー",
+          "keys": "Ctrl+C",
+          "category": "クリップボード"
+        },
+        {
+          "title": "切り取り",
+          "keys": "Ctrl+X",
+          "category": "クリップボード"
+        },
+        {
+          "title": "貼り付け",
+          "keys": "Ctrl+V",
+          "category": "クリップボード"
+        },
+        {
+          "title": "すべて選択",
+          "keys": "Ctrl+A",
+          "category": "編集"
+        },
+        {
+          "title": "元に戻す",
+          "keys": "Ctrl+Z",
+          "category": "編集"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "title": "Slack",
+      "description": "Windowsデスクトップ版Slackの標準ショートカットです。公式ガイド: https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts",
+      "path": "sets/slack.json",
+      "updatedAt": "2026-11-23T00:47:32+09:00",
+      "sha256": "2c7f84781def186210f55edf3145a1770599296e827d1e51ed2df7e9a22eac0c",
+      "commands": [
+        {
+          "title": "別の会話へ移動",
+          "keys": "Ctrl+K",
+          "category": "移動"
+        },
+        {
+          "title": "前のチャンネルやDMへ移動",
+          "keys": "Alt+Up",
+          "category": "移動"
+        },
+        {
+          "title": "次のチャンネルやDMへ移動",
+          "keys": "Alt+Down",
+          "category": "移動"
+        },
+        {
+          "title": "前の未読チャンネルやDMへ移動",
+          "keys": "Alt+Shift+Up",
+          "category": "移動"
+        },
+        {
+          "title": "次の未読チャンネルやDMへ移動",
+          "keys": "Alt+Shift+Down",
+          "category": "移動"
+        },
+        {
+          "title": "表示の履歴を戻る",
+          "keys": "Alt+Left",
+          "category": "移動"
+        },
+        {
+          "title": "表示の履歴を進む",
+          "keys": "Alt+Right",
+          "category": "移動"
+        },
+        {
+          "title": "次の領域にフォーカスを移す",
+          "keys": "F6",
+          "category": "移動"
+        },
+        {
+          "title": "前の領域にフォーカスを移す",
+          "keys": "Shift+F6",
+          "category": "移動"
+        },
+        {
+          "title": "ホームを開く",
+          "keys": "Ctrl+Shift+1",
+          "category": "画面"
+        },
+        {
+          "title": "DM一覧を開く",
+          "keys": "Ctrl+Shift+2",
+          "category": "画面"
+        },
+        {
+          "title": "アクティビティを開く",
+          "keys": "Ctrl+Shift+M",
+          "category": "画面"
+        },
+        {
+          "title": "スレッド一覧を開く",
+          "keys": "Ctrl+Shift+T",
+          "category": "画面"
+        },
+        {
+          "title": "「その他」を開く",
+          "keys": "Ctrl+Shift+0",
+          "category": "画面"
+        },
+        {
+          "title": "チャンネルを探す",
+          "keys": "Ctrl+Shift+L",
+          "category": "画面"
+        },
+        {
+          "title": "会話の詳細を開く",
+          "keys": "Ctrl+Shift+I",
+          "category": "画面"
+        },
+        {
+          "title": "メンバーディレクトリを開く",
+          "keys": "Ctrl+Shift+E",
+          "category": "画面"
+        },
+        {
+          "title": "右サイドバーを閉じる",
+          "keys": "Ctrl+.",
+          "category": "画面"
+        },
+        {
+          "title": "ワークスペーススイッチャーを開閉",
+          "keys": "Ctrl+Shift+S",
+          "category": "ワークスペースとタブ"
+        },
+        {
+          "title": "前のワークスペースに切り替え",
+          "keys": "Ctrl+Shift+Tab",
+          "category": "ワークスペースとタブ"
+        },
+        {
+          "title": "次のワークスペースに切り替え",
+          "keys": "Ctrl+Tab",
+          "category": "ワークスペースとタブ"
+        },
+        {
+          "title": "前のナビゲーションタブに切り替え",
+          "keys": "Ctrl+PageUp",
+          "category": "ワークスペースとタブ"
+        },
+        {
+          "title": "次のナビゲーションタブに切り替え",
+          "keys": "Ctrl+PageDown",
+          "category": "ワークスペースとタブ"
+        },
+        {
+          "title": "Slackを検索",
+          "keys": "Ctrl+G",
+          "category": "検索"
+        },
+        {
+          "title": "現在の会話を検索",
+          "keys": "Ctrl+F",
+          "category": "検索"
+        },
+        {
+          "title": "全未読画面を開く",
+          "keys": "Ctrl+Shift+A",
+          "category": "未読と既読"
+        },
+        {
+          "title": "会話の最新の未読メッセージへ移動",
+          "keys": "Ctrl+J",
+          "category": "未読と既読"
+        },
+        {
+          "title": "会話のメッセージを既読にする",
+          "keys": "Escape",
+          "category": "未読と既読"
+        },
+        {
+          "title": "すべてのメッセージを既読にする",
+          "keys": "Shift+Escape",
+          "category": "未読と既読"
+        },
+        {
+          "title": "フォーカス中のメッセージより上を未読にする",
+          "keys": "U",
+          "category": "未読と既読"
+        },
+        {
+          "title": "新しいメッセージを作成",
+          "keys": "Ctrl+N",
+          "category": "メッセージ"
+        },
+        {
+          "title": "メッセージの送信を取り消す",
+          "keys": "Ctrl+Z",
+          "category": "メッセージ"
+        },
+        {
+          "title": "自分の直前のメッセージを編集",
+          "keys": "Up",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージを編集",
+          "keys": "E",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージのスレッドを開く",
+          "keys": "T",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージを転送",
+          "keys": "F",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージのピン留めを切り替え",
+          "keys": "P",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージのブックマークを切り替え",
+          "keys": "A",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージのリマインダーを作成",
+          "keys": "M",
+          "category": "メッセージ"
+        },
+        {
+          "title": "フォーカス中のメッセージにリアクション",
+          "keys": "R",
+          "category": "メッセージ"
+        },
+        {
+          "title": "メッセージ内で改行",
+          "keys": "Shift+Enter",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "選んだ文字を太字にする",
+          "keys": "Ctrl+B",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "選んだ文字を斜体にする",
+          "keys": "Ctrl+I",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "選んだ文字に取り消し線を引く",
+          "keys": "Ctrl+Shift+X",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "選んだ文字にリンクを付ける",
+          "keys": "Ctrl+Shift+U",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "メッセージに引用の書式を付ける",
+          "keys": "Ctrl+Shift+9",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "選んだ文字にコードの書式を付ける",
+          "keys": "Ctrl+Shift+C",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "コードブロックを作る",
+          "keys": "Ctrl+Alt+Shift+C",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "箇条書きにする",
+          "keys": "Ctrl+Shift+8",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "番号付きリストにする",
+          "keys": "Ctrl+Shift+7",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "Markdownの書式を適用",
+          "keys": "Ctrl+Shift+F",
+          "category": "メッセージの書式"
+        },
+        {
+          "title": "添付ファイルを選ぶ",
+          "keys": "Ctrl+O",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "ダウンロード一覧を開く",
+          "keys": "Ctrl+Shift+J",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "スニペットを作成",
+          "keys": "Ctrl+Shift+Enter",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "新しいcanvasを作成",
+          "keys": "Ctrl+Shift+N",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "canvasのコメントを表示",
+          "keys": "Ctrl+Alt+T",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "canvasの閲覧・編集表示を切り替え",
+          "keys": "Ctrl+Alt+R",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "canvasのセクションリンクをコピー",
+          "keys": "Ctrl+Alt+Q",
+          "category": "ファイルとcanvas"
+        },
+        {
+          "title": "ハドルミーティングを操作",
+          "keys": "Ctrl+Shift+H",
+          "category": "ハドルミーティング"
+        },
+        {
+          "title": "ハドルのマイクのミュートを切り替え",
+          "keys": "Ctrl+Shift+Space",
+          "category": "ハドルミーティング"
+        },
+        {
+          "title": "自分のステータスを設定",
+          "keys": "Ctrl+Shift+Y",
+          "category": "Slackとウィンドウ"
+        },
+        {
+          "title": "全画面表示を切り替え",
+          "keys": "F11",
+          "category": "Slackとウィンドウ"
+        },
+        {
+          "title": "現在のウィンドウを閉じる",
+          "keys": "Ctrl+W",
+          "category": "Slackとウィンドウ"
+        },
+        {
+          "title": "最後に閉じたウィンドウを開く",
+          "keys": "Ctrl+Shift+W",
+          "category": "Slackとウィンドウ"
+        },
+        {
+          "title": "Slackを終了",
+          "keys": "Ctrl+Q",
+          "category": "Slackとウィンドウ"
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "title": "Windows標準キー",
+      "description": "Windows標準のキー操作です。利用できる操作はWindowsのバージョン・機器・設定・インストール済みアプリに従います。",
+      "path": "sets/windows.json",
+      "updatedAt": "2026-11-23T00:47:32+09:00",
+      "sha256": "2d98b8a319acb96a70ddc9a9ba273b43e891c903a684f5fd9e9fcad36c91878e",
+      "commands": [
+        {
+          "title": "スタートメニューを開く／閉じる",
+          "keys": "Win",
+          "category": "Windows"
+        },
+        {
+          "title": "クイック設定を開く",
+          "keys": "Win+A",
+          "category": "Windows"
+        },
+        {
+          "title": "表示中のWindowsのヒントに移動する",
+          "keys": "Win+Shift+A",
+          "category": "Windows"
+        },
+        {
+          "title": "HDRをオン／オフにする",
+          "keys": "Win+Alt+B",
+          "category": "Windows"
+        },
+        {
+          "title": "CopilotまたはWindows検索を開く",
+          "keys": "Win+C",
+          "category": "Windows"
+        },
+        {
+          "title": "日付と時刻を表示／非表示にする",
+          "keys": "Win+Alt+D",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを画面の下半分に配置する",
+          "keys": "Win+Alt+Down",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "音声入力のキーボードに移動する",
+          "keys": "Win+Alt+H",
+          "category": "Windows"
+        },
+        {
+          "title": "マイクをミュート／解除する",
+          "keys": "Win+Alt+K",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを画面の上半分に配置する",
+          "keys": "Win+Alt+Up",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "カラーフィルターをオン／オフにする",
+          "keys": "Win+Ctrl+C",
+          "category": "Windows"
+        },
+        {
+          "title": "ナレーターを起動／終了する",
+          "keys": "Win+Ctrl+Enter",
+          "category": "Windows"
+        },
+        {
+          "title": "ネットワーク上のデバイスを検索する",
+          "keys": "Win+Ctrl+F",
+          "category": "Windows"
+        },
+        {
+          "title": "クイックアシストを開く",
+          "keys": "Win+Ctrl+Q",
+          "category": "Windows"
+        },
+        {
+          "title": "直前に使っていた入力方式に戻す",
+          "keys": "Win+Ctrl+Space",
+          "category": "Windows"
+        },
+        {
+          "title": "サウンド出力の設定を開く",
+          "keys": "Win+Ctrl+V",
+          "category": "Windows"
+        },
+        {
+          "title": "デスクトップを表示／元に戻す",
+          "keys": "Win+D",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "ウィンドウを縮小／最小化する",
+          "keys": "Win+Down",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "エクスプローラーを開く",
+          "keys": "Win+E",
+          "category": "Windows"
+        },
+        {
+          "title": "拡大鏡を終了する",
+          "keys": "Win+Escape",
+          "category": "Windows"
+        },
+        {
+          "title": "フィードバックHubを開く",
+          "keys": "Win+F",
+          "category": "Windows"
+        },
+        {
+          "title": "IMEで文字を再変換する",
+          "keys": "Win+Slash",
+          "category": "Windows"
+        },
+        {
+          "title": "Game Barを開く",
+          "keys": "Win+G",
+          "category": "Windows"
+        },
+        {
+          "title": "音声入力を開く",
+          "keys": "Win+H",
+          "category": "Windows"
+        },
+        {
+          "title": "他のウィンドウを最小化／元に戻す",
+          "keys": "Win+Home",
+          "category": "Windows"
+        },
+        {
+          "title": "Windowsの設定を開く",
+          "keys": "Win+I",
+          "category": "Windows"
+        },
+        {
+          "title": "Recallを開く",
+          "keys": "Win+J",
+          "category": "Windows"
+        },
+        {
+          "title": "ワイヤレスディスプレイへの接続を開く",
+          "keys": "Win+K",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを画面の左側に配置する",
+          "keys": "Win+Left",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "すべてのウィンドウを最小化する",
+          "keys": "Win+M",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "拡大鏡の倍率を下げる",
+          "keys": "Win+Minus",
+          "category": "Windows"
+        },
+        {
+          "title": "Windowsの通知と予定表を開く",
+          "keys": "Win+N",
+          "category": "Windows"
+        },
+        {
+          "title": "画面の自動回転をロック／解除する",
+          "keys": "Win+O",
+          "category": "Windows"
+        },
+        {
+          "title": "ディスプレイの表示モードを選ぶ",
+          "keys": "Win+P",
+          "category": "Windows"
+        },
+        {
+          "title": "Windowsのバージョン情報を開く",
+          "keys": "Win+Pause",
+          "category": "Windows"
+        },
+        {
+          "title": "絵文字パネルを開く（Win＋ピリオド）",
+          "keys": "Win+Period",
+          "category": "Windows"
+        },
+        {
+          "title": "絵文字パネルを開く（Win＋セミコロン）",
+          "keys": "Win+Semicolon",
+          "category": "Windows"
+        },
+        {
+          "title": "拡大鏡を起動／倍率を上げる",
+          "keys": "Win+Plus",
+          "category": "Windows"
+        },
+        {
+          "title": "画面全体のスクリーンショットを保存する",
+          "keys": "Win+PrintScreen",
+          "category": "Windows"
+        },
+        {
+          "title": "Windows検索を開く（Win＋Q）",
+          "keys": "Win+Q",
+          "category": "Windows"
+        },
+        {
+          "title": "ファイル名を指定して実行を開く",
+          "keys": "Win+R",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを画面の右側に配置する",
+          "keys": "Win+Right",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "Windows検索を開く（Win＋S）",
+          "keys": "Win+S",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウのスナップ／最大化を解除する",
+          "keys": "Win+Shift+Down",
+          "category": "Windows"
+        },
+        {
+          "title": "UWPアプリを全画面表示にする",
+          "keys": "Win+Shift+Enter",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを左のモニターへ移す",
+          "keys": "Win+Shift+Left",
+          "category": "Windows"
+        },
+        {
+          "title": "最小化したウィンドウを元に戻す",
+          "keys": "Win+Shift+M",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "画面の範囲を選んで録画する",
+          "keys": "Win+Shift+R",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを右のモニターへ移す",
+          "keys": "Win+Shift+Right",
+          "category": "Windows"
+        },
+        {
+          "title": "画面の範囲を選んで撮影する",
+          "keys": "Win+Shift+S",
+          "category": "Windows"
+        },
+        {
+          "title": "前の入力言語／キーボード配列に切り替える",
+          "keys": "Win+Shift+Space",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを画面の上下いっぱいに広げる",
+          "keys": "Win+Shift+Up",
+          "category": "Windows"
+        },
+        {
+          "title": "通知を順番に切り替える",
+          "keys": "Win+Shift+V",
+          "category": "Windows"
+        },
+        {
+          "title": "次の入力言語／キーボード配列に切り替える",
+          "keys": "Win+Space",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウと仮想デスクトップの一覧を開く",
+          "keys": "Win+Tab",
+          "category": "Windows"
+        },
+        {
+          "title": "Windowsのアクセシビリティ設定を開く",
+          "keys": "Win+U",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウを最大化する（Windows標準）",
+          "keys": "Win+Up",
+          "category": "Windows"
+        },
+        {
+          "title": "クリップボードの履歴を開く",
+          "keys": "Win+V",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィジェットを開く",
+          "keys": "Win+W",
+          "category": "Windows"
+        },
+        {
+          "title": "スタートのクイックリンクメニューを開く",
+          "keys": "Win+X",
+          "category": "Windows"
+        },
+        {
+          "title": "Mixed Realityとデスクトップの入力を切り替える",
+          "keys": "Win+Y",
+          "category": "Windows"
+        },
+        {
+          "title": "ウィンドウの配置レイアウトを選ぶ",
+          "keys": "Win+Z",
+          "category": "ウィンドウ"
+        },
+        {
+          "title": "仮想デスクトップを追加する",
+          "keys": "Win+Ctrl+D",
+          "category": "仮想デスクトップ"
+        },
+        {
+          "title": "右の仮想デスクトップに切り替える",
+          "keys": "Win+Ctrl+Right",
+          "category": "仮想デスクトップ"
+        },
+        {
+          "title": "左の仮想デスクトップに切り替える",
+          "keys": "Win+Ctrl+Left",
+          "category": "仮想デスクトップ"
+        },
+        {
+          "title": "現在の仮想デスクトップを閉じる",
+          "keys": "Win+Ctrl+F4",
+          "category": "仮想デスクトップ"
+        },
+        {
+          "title": "メディアの再生／一時停止",
+          "keys": "MediaPlayPause",
+          "category": "メディア"
+        },
+        {
+          "title": "メディアの停止",
+          "keys": "MediaStop",
+          "category": "メディア"
+        },
+        {
+          "title": "メディアの次のトラック",
+          "keys": "MediaNextTrack",
+          "category": "メディア"
+        },
+        {
+          "title": "メディアの前のトラック",
+          "keys": "MediaPrevTrack",
+          "category": "メディア"
+        },
+        {
+          "title": "音量のミュート／解除を切り替える",
+          "keys": "VolumeMute",
+          "category": "音量"
+        },
+        {
+          "title": "音量を上げる",
+          "keys": "VolumeUp",
+          "category": "音量"
+        },
+        {
+          "title": "音量を下げる",
+          "keys": "VolumeDown",
+          "category": "音量"
+        }
+      ]
+    }
+  ]
+}
